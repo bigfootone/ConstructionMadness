@@ -1,0 +1,1220 @@
+﻿[2016.11.08-00.42.25:819][  0]Log file open, 11/08/16 00:42:25
+[2016.11.08-00.42.25:819][  0]LogInit:Display: Running engine for game: ConstructionMadness
+[2016.11.08-00.42.25:819][  0]LogPlatformFile: Not using cached read wrapper
+[2016.11.08-00.42.25:819][  0]LogInit:Display: RandInit(-566152884) SRandInit(-566152883).
+[2016.11.08-00.42.25:819][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.11.08-00.42.25:819][  0]LogStats: Stats thread started at 0.065080
+[2016.11.08-00.42.25:819][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.11.08-00.42.25:819][  0]LogInit: API Version: 2758231
+[2016.11.08-00.42.25:819][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.11.08-00.42.25:819][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.11.08-00.42.25:819][  0]LogInit: Build Configuration: Development
+[2016.11.08-00.42.25:819][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.11.08-00.42.25:819][  0]LogInit: Command line:  
+[2016.11.08-00.42.25:819][  0]LogInit: Base directory: S:/UnrealStuff/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.11.08-00.42.25:819][  0]LogInit: Rocket: 1
+[2016.11.08-00.42.25:822][  0]LogInit: Using libcurl 7.41.0
+[2016.11.08-00.42.25:822][  0]LogInit:  - built for x86_64-pc-win32
+[2016.11.08-00.42.25:822][  0]LogInit:  - supports SSL with WinSSL
+[2016.11.08-00.42.25:822][  0]LogInit:  - other features:
+[2016.11.08-00.42.25:822][  0]LogInit:      CURL_VERSION_SSL
+[2016.11.08-00.42.25:822][  0]LogInit:      CURL_VERSION_IPV6
+[2016.11.08-00.42.25:822][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.11.08-00.42.25:822][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.11.08-00.42.25:822][  0]LogInit:      CURL_VERSION_IDN
+[2016.11.08-00.42.25:822][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.11.08-00.42.25:822][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.11.08-00.42.25:822][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.11.08-00.42.25:822][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.11.08-00.42.25:822][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.11.08-00.42.25:826][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.11.08-00.42.25:831][  0]LogInit: Object subsystem initialized
+[2016.11.08-00.42.25:832][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.08-00.42.25:832][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.08-00.42.25:840][  0]LogInit: Computer: DAVID
+[2016.11.08-00.42.25:840][  0]LogInit: User: Bigfootone
+[2016.11.08-00.42.25:840][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.11.08-00.42.25:840][  0]LogInit: High frequency timer resolution =3.421875 MHz
+[2016.11.08-00.42.25:841][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.11.08-00.42.25:841][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.08-00.42.25:841][  0]LogMemory: Process Physical Memory: 56.34 MB used, 56.34 MB peak
+[2016.11.08-00.42.25:841][  0]LogMemory: Process Virtual Memory: 56.93 MB used, 56.93 MB peak
+[2016.11.08-00.42.25:841][  0]LogMemory: Physical Memory: 6813.83 MB used, 16336.59 MB total
+[2016.11.08-00.42.25:841][  0]LogMemory: Virtual Memory: 382.80 MB used, 134217728.00 MB total
+[2016.11.08-00.42.25:868][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.11.08-00.42.26:252][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 1070 (Feature Level 11_0)
+[2016.11.08-00.42.26:252][  0]LogD3D11RHI: Adapter has 8145MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 2 output[s]
+[2016.11.08-00.42.26:253][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.11.08-00.42.26:253][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 0 output[s]
+[2016.11.08-00.42.26:253][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.11.08-00.42.26:258][  0]LogD3D11RHI: !Direct3DDevice
+[2016.11.08-00.42.26:258][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.08-00.42.26:271][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.08-00.42.26:280][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Intermediate/Shaders/WorkingDirectory/8076/).
+[2016.11.08-00.42.26:280][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/BIGFOO~1/AppData/Local/Temp/UnrealShaderWorkingDir/C585D8FE49FDB1D73A97AEA3330BDF07/'.
+[2016.11.08-00.42.26:280][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.08-00.42.26:939][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.08-00.42.26:947][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.08-00.42.26:953][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.08-00.42.26:957][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.08-00.42.26:960][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.08-00.42.26:963][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.08-00.42.26:965][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.08-00.42.26:968][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.08-00.42.26:970][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.08-00.42.26:975][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.08-00.42.26:979][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.08-00.42.26:985][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.08-00.42.26:985][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.08-00.42.26:985][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.08-00.42.27:000][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.08-00.42.27:003][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.08-00.42.27:005][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.08-00.42.27:010][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.08-00.42.27:010][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.08-00.42.27:058][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.08-00.42.27:100][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Bigfootone/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.11.08-00.42.27:100][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bigfootone/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.11.08-00.42.27:100][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.08-00.42.27:100][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.08-00.42.27:100][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.08-00.42.27:100][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.08-00.42.27:152][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.08-00.42.27:164][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bigfootone/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.08-00.42.27:322][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.08-00.42.27:325][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.11.08-00.42.27:423][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.08-00.42.27:423][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.08-00.42.27:629][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.08-00.42.28:280][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.08-00.42.28:366][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.11.08-00.42.28:487][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.42.28:488][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.42.28:494][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.42.28:500][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.42.28:641][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.11.08-00.42.28:641][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.11.08-00.42.28:689][  0]LogEngine: Initializing Engine...
+[2016.11.08-00.42.28:690][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.11.08-00.42.28:693][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.11.08-00.42.28:790][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.08-00.42.28:802][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-00.42.28:812][  0]LogInit: FAudioDevice initialized.
+[2016.11.08-00.42.28:839][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Bigfootone/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.11.08-00.42.28:844][  0]LogInit: Texture streaming: Enabled
+[2016.11.08-00.42.28:846][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.11.08-00.42.28:846][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.11.08-00.42.28:846][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6844960942a56c7664b0f6b1131f1fef|c381b92b33784ccaa7b778c4b0f76233|53524d50-4578-4787-a176-59f20f61b4e2
+[2016.11.08-00.42.28:846][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.11.08-00.42.28:863][  0]LogInit: Transaction tracking system initialized
+[2016.11.08-00.42.28:874][  0]BlueprintLog: New page: Editor Load
+[2016.11.08-00.42.28:915][  0]LocalizationService: Info Localization service is disabled
+[2016.11.08-00.42.28:967][  0]LogConsoleResponse:Display: 
+[2016.11.08-00.42.29:050][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.11.08-00.42.29:112][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/' took 0.01s
+[2016.11.08-00.42.29:112][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.42.29:112][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.08-00.42.29:112][  0]LightingResults: New page: Lighting Build
+[2016.11.08-00.42.29:113][  0]MapCheck: New page: Map Check
+[2016.11.08-00.42.29:113][  0]LightingResults: New page: Lighting Build
+[2016.11.08-00.42.29:127][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D008EC7B00
+[2016.11.08-00.42.29:309][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.11.08-00.42.29:313][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.08-00.42.29:316][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.08-00.42.29:352][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.884ms to complete.
+[2016.11.08-00.42.29:352][  0]LogFileHelpers: Loading map 'Template_Default' took 0.240
+[2016.11.08-00.42.29:462][  0]LogCollectionManager: Loaded 0 collections in 0.000695 seconds
+[2016.11.08-00.42.29:505][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/Collections/' took 0.01s
+[2016.11.08-00.42.29:505][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Developers/Bigfootone/Collections/' took 0.01s
+[2016.11.08-00.42.29:505][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Collections/' took 0.01s
+[2016.11.08-00.42.29:505][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.11.08-00.42.29:511][  0]LogContentBrowser: Native class hierarchy populated in 0.0055 seconds. Added 1893 classes and 338 folders.
+[2016.11.08-00.42.29:513][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.11.08-00.42.29:540][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.08-00.42.29:543][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.08-00.42.29:588][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.08-00.42.29:593][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.08-00.42.29:615][  0]LogLoad: Full Startup: 4.13 seconds (BP compile: 0.03 seconds)
+[2016.11.08-00.42.29:624][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.08-00.42.29:626][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.11.08-00.42.29:663][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.08-00.42.29:774][  0]LogRenderer: Reallocating scene render targets to support 1156x624 (Frame:2).
+[2016.11.08-00.42.29:877][  2]LogAssetRegistry: Asset discovery search completed in 1.5210 seconds
+[2016.11.08-00.42.29:877][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.08-00.42.29:877][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2016.11.08-00.42.33:013][355]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-00.42.33:039][355]Cmd: MAP LOAD FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.08-00.42.33:039][355]LightingResults: New page: Lighting Build
+[2016.11.08-00.42.33:052][355]LoadErrors: New page: Loading map: David-Level.umap
+[2016.11.08-00.42.33:052][355]MapCheck: New page: Map Check
+[2016.11.08-00.42.33:052][355]LightingResults: New page: Lighting Build
+[2016.11.08-00.42.33:061][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D07E313920
+[2016.11.08-00.42.33:088][355]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.08-00.42.33:105][355]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.08-00.42.33:135][355]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.692ms to complete.
+[2016.11.08-00.42.33:135][355]LogFileHelpers: Loading map 'David-Level' took 0.097
+[2016.11.08-00.42.33:871][438]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.42.33:871][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-00.42.33:872][438]PIE: New page: PIE session: David-Level (8 Nov 2016 00:42:33)
+[2016.11.08-00.42.33:872][438]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-00.42.33:874][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002409s)
+[2016.11.08-00.42.33:875][438]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-00.42.33:875][438]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2016.11.08-00.42.33:875][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.003335s)
+[2016.11.08-00.42.33:895][438]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-00.42.33:901][438]LogInit: FAudioDevice initialized.
+[2016.11.08-00.42.33:943][438]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-00.42.33:945][438]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-00.42.33
+[2016.11.08-00.42.33:945][438]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.42.33:945][438]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.42.33:945][438]LogWorld: Bringing up level for play took: 0.001152
+[2016.11.08-00.42.33:947][438]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level -0.64
+[2016.11.08-00.42.33:948][438]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.42.33:974][438]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-00.42.33:975][438]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-00.42.33:975][438]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-00.42.33:975][438]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-00.42.33:984][439]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-00.42.33:984][439]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-00.42.33:984][439]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-00.42.33:984][439]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-00.42.33:992][440]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-00.42.33:992][440]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-00.42.33:992][440]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-00.42.34:000][441]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-00.42.34:000][441]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-00.42.34:010][442]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-00.42.34:235][469]LogBlueprintUserMessages: [PlayerPawn_C_1] incorrect
+[2016.11.08-00.42.34:937][553]LogBlueprintUserMessages: [PlayerPawn_C_1] incorrect
+[2016.11.08-00.42.35:020][563]LogBlueprintUserMessages: [PlayerPawn_C_1] incorrect
+[2016.11.08-00.42.36:118][694]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-00.42.37:695][883]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-00.42.38:079][929]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.42.38:109][929]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.42.38:119][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D0178AA980
+[2016.11.08-00.45.32:070][ 73]Cmd: MAP LOAD FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.08-00.45.32:071][ 73]LightingResults: New page: Lighting Build
+[2016.11.08-00.45.32:082][ 73]LoadErrors: New page: Loading map: David-Level.umap
+[2016.11.08-00.45.32:082][ 73]MapCheck: New page: Map Check
+[2016.11.08-00.45.32:082][ 73]LightingResults: New page: Lighting Build
+[2016.11.08-00.45.32:091][ 73]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D0175CF2E0
+[2016.11.08-00.45.32:100][ 73]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-00.45.32:125][ 73]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.08-00.45.32:144][ 73]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.08-00.45.32:176][ 73]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.359ms to complete.
+[2016.11.08-00.45.32:176][ 73]LogFileHelpers: Loading map 'David-Level' took 0.107
+[2016.11.08-00.45.47:270][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D07B876FC0
+[2016.11.08-00.46.11:126][ 68]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.11.08-00.46.11:442][ 68]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.11.08-00.46.12:002][ 68]LogActor:Warning: GameNetworkManager /Engine/Transient.World_2:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.46.20:354][904]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.08-00.46.20:489][904]BlueprintEditorCompileResults: Info [0235.00] Compile of BuildGameMode successful! [in 134 ms]
+[2016.11.08-00.46.20:897][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.08-00.46.21:002][943]LogSavePackage: Save=89.518761ms
+[2016.11.08-00.46.21:002][943]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/BuildGameMode7E99712C4DFF82CB984806B12FD9164C.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.08-00.46.21:005][943]LogSavePackage: Total save time: 106.294356ms
+[2016.11.08-00.46.21:005][943]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.08-00.46.34:275][518]LogEditorTransaction: Undo Move Node
+[2016.11.08-00.46.35:136][606]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.08-00.46.35:209][606]BlueprintEditorCompileResults: Info [0249.72] Compile of BuildGameMode successful! [in 72 ms]
+[2016.11.08-00.46.35:340][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.08-00.46.35:404][615]LogSavePackage: Save=59.691250ms
+[2016.11.08-00.46.35:404][615]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/BuildGameMode9693F5B74C9D222B9A9433B7B200F7BA.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.08-00.46.35:406][615]LogSavePackage: Total save time: 65.607596ms
+[2016.11.08-00.46.35:406][615]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.08-00.50.09:152][646]BlueprintLog: New page: Compile MainController
+[2016.11.08-00.50.09:257][646]BlueprintEditorCompileResults: Info [0463.77] Compile of MainController successful! [in 104 ms]
+[2016.11.08-00.51.10:296][540]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.08-00.51.10:466][540]BlueprintEditorCompileResults: Info [0524.98] Compile of BuildGameMode successful! [in 169 ms]
+[2016.11.08-00.51.36:217][423]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.08-00.51.36:309][423]BlueprintEditorCompileResults: Info [0550.82] Compile of BuildGameMode successful! [in 92 ms]
+[2016.11.08-00.51.53:369][292]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.08-00.51.53:458][292]BlueprintEditorCompileResults: Info [0567.97] Compile of BuildGameMode successful! [in 89 ms]
+[2016.11.08-00.52.22:398][320]BlueprintLog: New page: Compile HudMain
+[2016.11.08-00.52.22:479][320]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-00.52.22:479][320]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-00.52.22:479][320]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-00.52.22:479][320]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-00.52.22:479][320]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-00.52.22:479][320]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-00.52.22:479][320]BlueprintEditorCompileResults: Info [0596.99] Compile of HudMain successful! [in 80 ms]
+[2016.11.08-00.52.22:822][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.08-00.52.22:905][352]LogSavePackage: Save=67.211983ms
+[2016.11.08-00.52.22:905][352]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/BuildGameModeFD32E7124C33FECE6CEA20B92BB14AED.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.08-00.52.22:907][352]LogSavePackage: Total save time: 82.330596ms
+[2016.11.08-00.52.22:907][352]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.08-00.52.22:915][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainController" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/MainController.uasset" SILENT=true
+[2016.11.08-00.52.22:939][352]LogSavePackage: Save=14.561607ms
+[2016.11.08-00.52.22:939][352]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/MainControllerD1D4A59F4836136D22B5FDA635039269.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/MainController.uasset'
+[2016.11.08-00.52.22:941][352]LogSavePackage: Total save time: 23.646101ms
+[2016.11.08-00.52.22:941][352]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/MainController.uasset
+[2016.11.08-00.52.22:947][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HudMain" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset" SILENT=true
+[2016.11.08-00.52.23:018][352]LogSavePackage: Save=58.497459ms
+[2016.11.08-00.52.23:018][352]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/HudMain17AAA6A14EAF7E8EA5AAF083DF669AFD.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset'
+[2016.11.08-00.52.23:020][352]LogSavePackage: Total save time: 71.427800ms
+[2016.11.08-00.52.23:020][352]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset
+[2016.11.08-00.52.24:155][483]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.52.24:155][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-00.52.24:155][483]PIE: New page: PIE session: David-Level (8 Nov 2016 00:52:24)
+[2016.11.08-00.52.24:155][483]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-00.52.24:158][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002425s)
+[2016.11.08-00.52.24:158][483]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-00.52.24:158][483]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2016.11.08-00.52.24:158][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.003256s)
+[2016.11.08-00.52.24:193][483]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-00.52.24:201][483]LogInit: FAudioDevice initialized.
+[2016.11.08-00.52.24:233][483]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-00.52.24:235][483]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-00.52.24
+[2016.11.08-00.52.24:235][483]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.52.24:235][483]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.52.24:235][483]LogWorld: Bringing up level for play took: 0.001425
+[2016.11.08-00.52.24:253][483]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level -0.335
+[2016.11.08-00.52.24:253][483]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.52.24:253][483]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [0/0]!
+[2016.11.08-00.52.24:253][483]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [0/0]!
+[2016.11.08-00.52.24:256][483]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-00.52.24:256][483]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-00.52.24:256][483]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-00.52.24:256][483]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-00.52.24:270][484]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-00.52.24:270][484]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-00.52.24:270][484]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-00.52.24:270][484]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-00.52.24:278][485]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-00.52.24:278][485]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-00.52.24:278][485]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-00.52.24:287][486]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-00.52.24:287][486]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-00.52.24:295][487]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-00.52.24:303][488]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-00.52.25:040][575]LogBlueprintUserMessages: [PlayerPawn_C_1] incorrect
+[2016.11.08-00.52.25:430][622]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.52.25:461][622]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.52.25:485][622]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D05EA28B80
+[2016.11.08-00.53.59:834][ 32]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.08-00.53.59:856][ 32]LogBlueprint:Warning: [HudMain] CreatePinForVariable: 'PointsForWord' variable not found. Base class was probably changed.
+[2016.11.08-00.53.59:862][ 32]LogBlueprint:Warning: [compiler HudMain] Warning Could not find a variable named "PointsForWord" in 'BuildGameMode_C'.
+Make sure 'BuildGameMode_C' has been compiled for  Get PointsForWord 
+[2016.11.08-00.53.59:883][ 32]LogBlueprint:Error: [compiler HudMain] Error The property associated with  Points for Word  could not be found
+[2016.11.08-00.54.00:009][ 32]BlueprintEditorCompileResults: Info [0694.52] Compile of BuildGameMode successful! [in 174 ms]
+[2016.11.08-00.54.00:548][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.08-00.54.00:623][ 87]LogSavePackage: Save=67.061478ms
+[2016.11.08-00.54.00:623][ 87]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/BuildGameMode4A81358349EF3F3FFA24A2AA7C32CDBB.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.08-00.54.00:625][ 87]LogSavePackage: Total save time: 74.702028ms
+[2016.11.08-00.54.00:625][ 87]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.08-00.54.08:917][ 25]BlueprintLog: New page: Compile HudMain
+[2016.11.08-00.54.08:996][ 25]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-00.54.08:996][ 25]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-00.54.08:996][ 25]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-00.54.08:996][ 25]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-00.54.08:996][ 25]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-00.54.08:996][ 25]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-00.54.08:996][ 25]BlueprintEditorCompileResults: Info [0703.51] Compile of HudMain successful! [in 78 ms]
+[2016.11.08-00.54.09:193][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HudMain" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset" SILENT=true
+[2016.11.08-00.54.09:257][ 41]LogSavePackage: Save=58.978485ms
+[2016.11.08-00.54.09:257][ 41]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/HudMain0DF0661F4B8589A3F18F4C85B74DD0EF.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset'
+[2016.11.08-00.54.09:259][ 41]LogSavePackage: Total save time: 65.083325ms
+[2016.11.08-00.54.09:259][ 41]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset
+[2016.11.08-00.54.11:364][262]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.54.11:364][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-00.54.11:364][262]PIE: New page: PIE session: David-Level (8 Nov 2016 00:54:11)
+[2016.11.08-00.54.11:364][262]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-00.54.11:366][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002136s)
+[2016.11.08-00.54.11:367][262]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-00.54.11:367][262]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2016.11.08-00.54.11:367][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.002882s)
+[2016.11.08-00.54.11:400][262]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-00.54.11:409][262]LogInit: FAudioDevice initialized.
+[2016.11.08-00.54.11:437][262]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-00.54.11:438][262]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-00.54.11
+[2016.11.08-00.54.11:438][262]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.54.11:438][262]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.54.11:438][262]LogWorld: Bringing up level for play took: 0.001099
+[2016.11.08-00.54.11:455][262]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level 0.868
+[2016.11.08-00.54.11:456][262]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.54.11:459][262]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-00.54.11:459][262]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-00.54.11:459][262]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-00.54.11:459][262]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-00.54.11:471][263]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-00.54.11:471][263]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-00.54.11:471][263]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-00.54.11:479][264]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-00.54.11:479][264]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-00.54.11:487][265]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-00.54.11:496][266]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-00.54.12:458][381]LogBlueprintUserMessages: [PlayerPawn_C_1] incorrect
+[2016.11.08-00.54.13:260][477]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.54.13:294][477]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.54.13:318][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D059DBBC40
+[2016.11.08-00.54.29:801][168]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.08-00.54.29:898][168]BlueprintEditorCompileResults: Info [0724.41] Compile of BuildGameMode successful! [in 96 ms]
+[2016.11.08-00.54.30:129][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.08-00.54.30:206][186]LogSavePackage: Save=71.137314ms
+[2016.11.08-00.54.30:206][186]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/BuildGameMode8ED80EC844CB523B6EBB6C87C2FF9CDF.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.08-00.54.30:208][186]LogSavePackage: Total save time: 77.438246ms
+[2016.11.08-00.54.30:208][186]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.08-00.54.31:575][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.54.31:575][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-00.54.31:575][338]PIE: New page: PIE session: David-Level (8 Nov 2016 00:54:31)
+[2016.11.08-00.54.31:575][338]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-00.54.31:577][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002238s)
+[2016.11.08-00.54.31:578][338]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-00.54.31:578][338]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2016.11.08-00.54.31:578][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.002910s)
+[2016.11.08-00.54.31:612][338]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-00.54.31:619][338]LogInit: FAudioDevice initialized.
+[2016.11.08-00.54.31:648][338]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-00.54.31:650][338]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-00.54.31
+[2016.11.08-00.54.31:650][338]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.54.31:650][338]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.54.31:650][338]LogWorld: Bringing up level for play took: 0.001300
+[2016.11.08-00.54.31:652][338]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level 1.064
+[2016.11.08-00.54.31:652][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.54.31:655][338]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-00.54.31:655][338]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-00.54.31:655][338]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-00.54.31:655][338]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-00.54.31:676][339]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-00.54.31:676][339]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-00.54.31:676][339]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-00.54.31:683][340]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-00.54.31:683][340]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-00.54.31:691][341]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-00.54.39:155][226]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.54.39:183][226]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.54.39:205][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D08509A7A0
+[2016.11.08-00.55.14:665][ 33]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.08-00.55.14:762][ 33]BlueprintEditorCompileResults: Info [0769.27] Compile of BuildGameMode successful! [in 97 ms]
+[2016.11.08-00.55.15:499][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.08-00.55.15:579][106]LogSavePackage: Save=73.999489ms
+[2016.11.08-00.55.15:579][106]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/BuildGameModeEF6D174A487461CC18AC1BA773BB8834.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.08-00.55.15:580][106]LogSavePackage: Total save time: 79.579763ms
+[2016.11.08-00.55.15:580][106]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.08-00.55.17:092][275]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.55.17:092][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-00.55.17:092][275]PIE: New page: PIE session: David-Level (8 Nov 2016 00:55:17)
+[2016.11.08-00.55.17:092][275]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-00.55.17:094][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002143s)
+[2016.11.08-00.55.17:095][275]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-00.55.17:095][275]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2016.11.08-00.55.17:095][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.003093s)
+[2016.11.08-00.55.17:127][275]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-00.55.17:135][275]LogInit: FAudioDevice initialized.
+[2016.11.08-00.55.17:164][275]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-00.55.17:165][275]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-00.55.17
+[2016.11.08-00.55.17:165][275]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.55.17:165][275]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.55.17:166][275]LogWorld: Bringing up level for play took: 0.001084
+[2016.11.08-00.55.17:167][275]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level 0.579
+[2016.11.08-00.55.17:167][275]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.55.17:170][275]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-00.55.17:170][275]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-00.55.17:170][275]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-00.55.17:170][275]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-00.55.17:191][276]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-00.55.17:191][276]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-00.55.17:191][276]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-00.55.17:198][277]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-00.55.17:198][277]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-00.55.17:207][278]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-00.55.17:215][279]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-00.55.17:523][316]LogBlueprintUserMessages: [PlayerPawn_C_1] incorrect
+[2016.11.08-00.55.18:914][482]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.55.18:943][482]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.55.18:966][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D08B258CC0
+[2016.11.08-00.55.25:384][147]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.08-00.55.25:487][147]BlueprintEditorCompileResults: Info [0780.00] Compile of BuildGameMode successful! [in 102 ms]
+[2016.11.08-00.55.25:701][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.08-00.55.25:783][161]LogSavePackage: Save=76.146561ms
+[2016.11.08-00.55.25:783][161]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/BuildGameMode0B0C160D40ED459595DCA294B38F4F8D.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.08-00.55.25:785][161]LogSavePackage: Total save time: 81.949808ms
+[2016.11.08-00.55.25:785][161]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.08-00.55.27:076][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.55.27:076][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-00.55.27:076][305]PIE: New page: PIE session: David-Level (8 Nov 2016 00:55:27)
+[2016.11.08-00.55.27:076][305]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-00.55.27:078][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001716s)
+[2016.11.08-00.55.27:078][305]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-00.55.27:078][305]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2016.11.08-00.55.27:079][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.002381s)
+[2016.11.08-00.55.27:109][305]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-00.55.27:116][305]LogInit: FAudioDevice initialized.
+[2016.11.08-00.55.27:146][305]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-00.55.27:148][305]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-00.55.27
+[2016.11.08-00.55.27:148][305]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.55.27:149][305]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.55.27:149][305]LogWorld: Bringing up level for play took: 0.001395
+[2016.11.08-00.55.27:150][305]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level 0.562
+[2016.11.08-00.55.27:150][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.55.27:153][305]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-00.55.27:153][305]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-00.55.27:153][305]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-00.55.27:153][305]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-00.55.27:176][306]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-00.55.27:176][306]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-00.55.27:176][306]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-00.55.27:185][307]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-00.55.27:185][307]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-00.55.27:192][308]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-00.55.27:192][308]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-00.55.27:201][309]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-00.55.28:285][439]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.55.28:317][439]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.55.28:340][439]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D05CA91440
+[2016.11.08-00.55.31:703][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.08-00.55.31:784][764]LogSavePackage: Save=76.461586ms
+[2016.11.08-00.55.31:785][764]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/BuildGameMode4485030F4721E6907B441A8038A24F04.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.08-00.55.31:786][764]LogSavePackage: Total save time: 82.264256ms
+[2016.11.08-00.55.31:786][764]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.08-00.55.32:460][833]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.08-00.55.32:554][833]BlueprintEditorCompileResults: Info [0787.07] Compile of BuildGameMode successful! [in 94 ms]
+[2016.11.08-00.55.34:439][ 45]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.55.34:439][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-00.55.34:439][ 45]PIE: New page: PIE session: David-Level (8 Nov 2016 00:55:34)
+[2016.11.08-00.55.34:439][ 45]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-00.55.34:441][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001887s)
+[2016.11.08-00.55.34:441][ 45]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-00.55.34:442][ 45]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2016.11.08-00.55.34:442][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.002588s)
+[2016.11.08-00.55.34:475][ 45]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-00.55.34:483][ 45]LogInit: FAudioDevice initialized.
+[2016.11.08-00.55.34:516][ 45]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-00.55.34:517][ 45]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-00.55.34
+[2016.11.08-00.55.34:517][ 45]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.55.34:518][ 45]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-00.55.34:518][ 45]LogWorld: Bringing up level for play took: 0.001162
+[2016.11.08-00.55.34:519][ 45]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level -0.068
+[2016.11.08-00.55.34:519][ 45]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.55.34:522][ 45]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-00.55.34:522][ 45]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-00.55.34:522][ 45]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-00.55.34:522][ 45]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-00.55.34:543][ 46]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-00.55.34:543][ 46]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-00.55.34:543][ 46]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-00.55.34:552][ 47]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-00.55.34:552][ 47]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-00.55.34:560][ 48]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-00.55.34:569][ 49]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-00.55.35:224][127]LogBlueprintUserMessages: [PlayerPawn_C_1] incorrect
+[2016.11.08-00.55.37:888][446]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-00.55.39:413][629]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-00.55.40:299][735]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-00.55.40:629][774]LogBlueprintUserMessages: [PlayerPawn_C_1] incorrect
+[2016.11.08-00.55.40:728][786]LogBlueprintUserMessages: [PlayerPawn_C_1] incorrect
+[2016.11.08-00.55.41:855][921]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-00.55.42:522][  1]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-00.55.43:139][ 75]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-00.55.44:349][220]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-00.55.45:391][345]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-00.55.46:320][456]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-00.55.46:896][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.55.46:925][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-00.55.46:949][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D05CA92E80
+[2016.11.08-00.56.06:569][671]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.08-00.56.06:664][671]BlueprintEditorCompileResults: Info [0821.18] Compile of BuildGameMode successful! [in 94 ms]
+[2016.11.08-00.57.41:461][687]BlueprintLog: New page: Compile PlayerPawn
+[2016.11.08-00.57.41:552][687]BlueprintEditorCompileResults: Info [0916.06] Compile of PlayerPawn successful! [in 90 ms]
+[2016.11.08-00.58.56:410][946]BlueprintLog: New page: Compile PlayerPawn
+[2016.11.08-00.58.56:479][946]BlueprintEditorCompileResults: Info [0990.99] Compile of PlayerPawn successful! [in 69 ms]
+[2016.11.08-01.00.18:551][879]BlueprintLog: New page: Compile PlayerPawn
+[2016.11.08-01.00.18:626][879]BlueprintEditorCompileResults: Info [1073.14] Compile of PlayerPawn successful! [in 74 ms]
+[2016.11.08-01.00.19:633][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/David-Level" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.08-01.00.19:791][963]LogSavePackage: Save=111.727928ms
+[2016.11.08-01.00.19:791][963]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/David-LevelC24D1CA5405E5FE5DCF3AF9E87FED041.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap'
+[2016.11.08-01.00.19:793][963]LogSavePackage: Total save time: 123.221919ms
+[2016.11.08-01.00.19:793][963]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap
+[2016.11.08-01.00.19:835][963]LogFileHelpers: Saving map 'David-Level' took 0.437
+[2016.11.08-01.00.19:840][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.08-01.00.19:926][963]LogSavePackage: Save=76.876274ms
+[2016.11.08-01.00.19:926][963]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/BuildGameMode568FB5B947B3043B3A077D829CEBA737.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.08-01.00.19:927][963]LogSavePackage: Total save time: 86.766176ms
+[2016.11.08-01.00.19:927][963]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.08-01.00.19:933][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/PlayerPawn.uasset" SILENT=true
+[2016.11.08-01.00.19:977][963]LogSavePackage: Save=31.614538ms
+[2016.11.08-01.00.19:977][963]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/PlayerPawn2735E96A4A20A370FC648E9BF30C6D31.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/PlayerPawn.uasset'
+[2016.11.08-01.00.19:980][963]LogSavePackage: Total save time: 42.726867ms
+[2016.11.08-01.00.19:980][963]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/PlayerPawn.uasset
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:HudMain_C_11.WidgetTree_49.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:HudMain_C_41.WidgetTree_153.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HudMain_C_11:WidgetTree_8.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:HudMain_C_12.WidgetTree_51.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HudMain_C_15:WidgetTree_35.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/HudMain.HudMain_C:WidgetTree_152.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:HudMain_C_3.WidgetTree_16.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HudMain_C_19:WidgetTree_75.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.TRASHCLASS_HudMain_97:CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:HudMain_C_5.WidgetTree_20.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/HudMain.HudMain_C:WidgetTree_88.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/HudMain.HudMain_C:WidgetTree_150.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:HudMain_C_7.WidgetTree_24.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:HudMain_C_8.WidgetTree_26.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:HudMain_C_9.WidgetTree_28.CanvasPanel_0
+[2016.11.08-01.00.32:111][ 50]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/HudMain.HudMain:WidgetTree.CanvasPanel_0.CanvasPanelSlot_98) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_23).  Import failed...
+[2016.11.08-01.00.32:111][ 50]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_98''
+[2016.11.08-01.00.45:955][925]BlueprintLog: New page: Compile HudMain
+[2016.11.08-01.00.46:054][925]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.00.46:054][925]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.00.46:054][925]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.00.46:054][925]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.00.46:054][925]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.00.46:054][925]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.00.46:054][925]BlueprintEditorCompileResults: Info [1100.57] Compile of HudMain successful! [in 98 ms]
+[2016.11.08-01.00.46:488][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HudMain" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset" SILENT=true
+[2016.11.08-01.00.46:559][949]LogSavePackage: Save=62.922230ms
+[2016.11.08-01.00.46:559][949]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/HudMain16079AD04A87C6C440CF09AC4A1ED410.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset'
+[2016.11.08-01.00.46:561][949]LogSavePackage: Total save time: 72.630942ms
+[2016.11.08-01.00.46:561][949]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset
+[2016.11.08-01.01.12:130][712]BlueprintLog: New page: Compile HudMain
+[2016.11.08-01.01.12:217][712]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.01.12:217][712]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.01.12:217][712]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.01.12:217][712]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.01.12:217][712]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.01.12:217][712]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.01.12:217][712]BlueprintEditorCompileResults: Info [1126.73] Compile of HudMain successful! [in 86 ms]
+[2016.11.08-01.01.33:584][ 90]BlueprintLog: New page: Compile HudMain
+[2016.11.08-01.01.33:673][ 90]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.01.33:673][ 90]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.01.33:673][ 90]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.01.33:673][ 90]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.01.33:673][ 90]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.01.33:673][ 90]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.01.33:673][ 90]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.01.33:673][ 90]BlueprintEditorCompileResults: Info [1148.18] Compile of HudMain successful! [in 88 ms]
+[2016.11.08-01.01.34:024][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/David-Level" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.08-01.01.34:102][121]LogSavePackage: Save=50.884674ms
+[2016.11.08-01.01.34:102][121]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/David-Level390E65074DAD739B3942DF997273FBD9.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap'
+[2016.11.08-01.01.34:104][121]LogSavePackage: Total save time: 57.039198ms
+[2016.11.08-01.01.34:104][121]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap
+[2016.11.08-01.01.34:136][121]LogFileHelpers: Saving map 'David-Level' took 0.148
+[2016.11.08-01.01.34:141][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HudMain" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset" SILENT=true
+[2016.11.08-01.01.34:217][121]LogSavePackage: Save=70.312035ms
+[2016.11.08-01.01.34:217][121]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/HudMainDC1F498449760E1FA3F15FB3A93D943D.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset'
+[2016.11.08-01.01.34:220][121]LogSavePackage: Total save time: 77.350285ms
+[2016.11.08-01.01.34:220][121]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset
+[2016.11.08-01.01.35:375][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.01.35:375][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-01.01.35:375][254]PIE: New page: PIE session: David-Level (8 Nov 2016 01:01:35)
+[2016.11.08-01.01.35:375][254]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-01.01.35:378][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002693s)
+[2016.11.08-01.01.35:378][254]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-01.01.35:378][254]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2016.11.08-01.01.35:378][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.003398s)
+[2016.11.08-01.01.35:414][254]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-01.01.35:422][254]LogInit: FAudioDevice initialized.
+[2016.11.08-01.01.35:456][254]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-01.01.35:458][254]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-01.01.35
+[2016.11.08-01.01.35:458][254]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.01.35:458][254]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.01.35:458][254]LogWorld: Bringing up level for play took: 0.001367
+[2016.11.08-01.01.35:459][254]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level 0.872
+[2016.11.08-01.01.35:459][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.01.35:460][254]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [0/0]!
+[2016.11.08-01.01.35:460][254]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [0/0]!
+[2016.11.08-01.01.35:463][254]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-01.01.35:463][254]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-01.01.35:463][254]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-01.01.35:463][254]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-01.01.35:477][255]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-01.01.35:477][255]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-01.01.35:477][255]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-01.01.35:477][255]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-01.01.35:487][256]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-01.01.35:487][256]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-01.01.35:487][256]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-01.01.35:494][257]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-01.01.35:494][257]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-01.01.35:502][258]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-01.01.37:653][512]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.01.39:499][733]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.01.39:740][762]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.01.39:775][762]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.01.39:799][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D0418994E0
+[2016.11.08-01.02.14:745][662]BlueprintLog: New page: Compile PlayerPawn
+[2016.11.08-01.02.14:812][662]BlueprintEditorCompileResults: Info [1189.32] Compile of PlayerPawn successful! [in 66 ms]
+[2016.11.08-01.02.21:830][474]BlueprintLog: New page: Compile PlayerPawn
+[2016.11.08-01.02.21:892][474]BlueprintEditorCompileResults: Info [1196.40] Compile of PlayerPawn successful! [in 61 ms]
+[2016.11.08-01.03.20:448][438]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.08-01.03.20:538][438]BlueprintEditorCompileResults: Info [1255.05] Compile of BuildGameMode successful! [in 90 ms]
+[2016.11.08-01.03.20:984][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/David-Level" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.08-01.03.21:057][474]LogSavePackage: Save=45.985313ms
+[2016.11.08-01.03.21:057][474]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/David-Level45B7A84C4AAEF36BA3D1C587A5F34EB1.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap'
+[2016.11.08-01.03.21:058][474]LogSavePackage: Total save time: 52.017387ms
+[2016.11.08-01.03.21:059][474]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap
+[2016.11.08-01.03.21:085][474]LogFileHelpers: Saving map 'David-Level' took 0.138
+[2016.11.08-01.03.21:090][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.08-01.03.21:175][474]LogSavePackage: Save=79.564568ms
+[2016.11.08-01.03.21:175][474]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/BuildGameMode9FF514074E7341EF9C35AB822B05459C.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.08-01.03.21:177][474]LogSavePackage: Total save time: 86.154521ms
+[2016.11.08-01.03.21:177][474]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.08-01.03.21:182][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/PlayerPawn.uasset" SILENT=true
+[2016.11.08-01.03.21:218][474]LogSavePackage: Save=29.795946ms
+[2016.11.08-01.03.21:218][474]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/PlayerPawn174F24C645235A308CC38C8DF3D8A033.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/PlayerPawn.uasset'
+[2016.11.08-01.03.21:220][474]LogSavePackage: Total save time: 36.099799ms
+[2016.11.08-01.03.21:220][474]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/PlayerPawn.uasset
+[2016.11.08-01.03.33:300][790]Cmd: TRANSACTION UNDO
+[2016.11.08-01.03.33:300][790]LogEditorTransaction: Undo Delete current selection
+[2016.11.08-01.03.33:679][826]Cmd: TRANSACTION UNDO
+[2016.11.08-01.03.33:679][826]LogEditorTransaction: Undo Delete current selection
+[2016.11.08-01.03.34:198][883]Cmd: TRANSACTION UNDO
+[2016.11.08-01.03.34:198][883]LogEditorTransaction: Undo Create Pin Link
+[2016.11.08-01.03.34:525][919]Cmd: TRANSACTION UNDO
+[2016.11.08-01.03.34:525][919]LogEditorTransaction: Undo Delete current selection
+[2016.11.08-01.03.34:894][960]Cmd: TRANSACTION UNDO
+[2016.11.08-01.03.34:894][960]LogEditorTransaction: Undo Delete current selection
+[2016.11.08-01.03.36:534][146]BlueprintLog: New page: Compile HudMain
+[2016.11.08-01.03.36:613][146]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.03.36:613][146]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.03.36:613][146]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.03.36:613][146]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.03.36:613][146]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.03.36:613][146]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.03.36:613][146]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.11.08-01.03.36:613][146]BlueprintEditorCompileResults: Info [1271.13] Compile of HudMain successful! [in 78 ms]
+[2016.11.08-01.03.37:040][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HudMain" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset" SILENT=true
+[2016.11.08-01.03.37:108][190]LogSavePackage: Save=63.445042ms
+[2016.11.08-01.03.37:108][190]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/HudMain681A7DF64C6B87B50DD984AFA9DF93B2.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset'
+[2016.11.08-01.03.37:110][190]LogSavePackage: Total save time: 69.438539ms
+[2016.11.08-01.03.37:110][190]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset
+[2016.11.08-01.03.37:116][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/PlayerPawn.uasset" SILENT=true
+[2016.11.08-01.03.37:148][190]LogSavePackage: Save=26.894320ms
+[2016.11.08-01.03.37:148][190]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/PlayerPawn8F7C66DE4FE4AF8DAD1DD9AD7A07FDA3.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/PlayerPawn.uasset'
+[2016.11.08-01.03.37:150][190]LogSavePackage: Total save time: 33.527233ms
+[2016.11.08-01.03.37:150][190]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/PlayerPawn.uasset
+[2016.11.08-01.03.38:503][348]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.03.38:503][348]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.11.08-01.03.38:507][348]LogPlayLevel: [PlayLevel] Compiling PlayerPawn before play...
+[2016.11.08-01.03.38:545][348]LogPlayLevel: PlayLevel: Blueprint regeneration took 42 ms (1 blueprints)
+[2016.11.08-01.03.38:569][348]PIE: New page: PIE session: David-Level (8 Nov 2016 01:03:38)
+[2016.11.08-01.03.38:569][348]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-01.03.38:571][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002028s)
+[2016.11.08-01.03.38:572][348]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-01.03.38:572][348]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2016.11.08-01.03.38:572][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.002712s)
+[2016.11.08-01.03.38:605][348]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-01.03.38:612][348]LogInit: FAudioDevice initialized.
+[2016.11.08-01.03.38:647][348]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-01.03.38:649][348]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-01.03.38
+[2016.11.08-01.03.38:649][348]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.03.38:649][348]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.03.38:649][348]LogWorld: Bringing up level for play took: 0.001158
+[2016.11.08-01.03.38:651][348]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level 0.063
+[2016.11.08-01.03.38:651][348]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.03.38:654][348]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-01.03.38:654][348]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-01.03.38:654][348]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-01.03.38:654][348]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-01.03.38:667][349]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-01.03.38:667][349]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-01.03.38:667][349]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-01.03.38:674][350]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-01.03.38:674][350]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-01.03.38:682][351]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-01.03.38:692][352]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-01.03.40:469][565]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.03.42:271][779]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.03.44:168][  5]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.03.45:369][149]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.03.46:571][292]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.03.47:246][373]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.03.47:682][425]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.03.48:811][560]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.03.49:269][615]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.03.49:796][678]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.03.50:263][734]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.03.50:872][807]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.03.51:324][861]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.03.51:990][940]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.03.52:021][940]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.03.52:062][941]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D093FD5B20
+[2016.11.08-01.04.06:994][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/David-Level" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.08-01.04.07:070][646]LogSavePackage: Save=47.239014ms
+[2016.11.08-01.04.07:070][646]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/David-Level7B1CD0AD47C130E00705FC8BEA991565.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap'
+[2016.11.08-01.04.07:072][646]LogSavePackage: Total save time: 55.262391ms
+[2016.11.08-01.04.07:072][646]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap
+[2016.11.08-01.04.07:093][646]LogFileHelpers: Saving map 'David-Level' took 0.136
+[2016.11.08-01.04.09:125][883]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.04.09:125][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-01.04.09:125][883]PIE: New page: PIE session: David-Level (8 Nov 2016 01:04:09)
+[2016.11.08-01.04.09:125][883]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-01.04.09:127][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002177s)
+[2016.11.08-01.04.09:128][883]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-01.04.09:128][883]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2016.11.08-01.04.09:128][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.002905s)
+[2016.11.08-01.04.09:161][883]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-01.04.09:168][883]LogInit: FAudioDevice initialized.
+[2016.11.08-01.04.09:197][883]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-01.04.09:199][883]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-01.04.09
+[2016.11.08-01.04.09:199][883]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.04.09:199][883]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.04.09:200][883]LogWorld: Bringing up level for play took: 0.001349
+[2016.11.08-01.04.09:201][883]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level 0.613
+[2016.11.08-01.04.09:201][883]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.04.09:204][883]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-01.04.09:204][883]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-01.04.09:204][883]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-01.04.09:204][883]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-01.04.09:217][884]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-01.04.09:217][884]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-01.04.09:217][884]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-01.04.09:223][885]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-01.04.09:223][885]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-01.04.09:232][886]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-01.04.11:443][150]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.04.13:265][367]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.04.14:426][505]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.04.15:697][657]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.04.16:185][715]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.04.16:677][774]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.04.17:294][848]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.04.18:659][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.04.18:689][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.04.18:712][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D05183AB60
+[2016.11.08-01.04.30:933][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HudMain" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset" SILENT=true
+[2016.11.08-01.04.31:007][390]LogSavePackage: Save=67.053879ms
+[2016.11.08-01.04.31:007][390]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/HudMain769DF3034D751DA0FD8E87A257A23EF5.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset'
+[2016.11.08-01.04.31:009][390]LogSavePackage: Total save time: 75.542506ms
+[2016.11.08-01.04.31:009][390]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/HudMain.uasset
+[2016.11.08-01.04.49:932][597]BlueprintLog: New page: Compile PlayerPawn
+[2016.11.08-01.04.49:992][597]BlueprintEditorCompileResults: Info [1344.50] Compile of PlayerPawn successful! [in 60 ms]
+[2016.11.08-01.04.51:744][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/David-Level" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.08-01.04.51:817][793]LogSavePackage: Save=45.840950ms
+[2016.11.08-01.04.51:817][793]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/David-Level174E45DA4356CDA572EDAAA8924E253D.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap'
+[2016.11.08-01.04.51:819][793]LogSavePackage: Total save time: 52.745059ms
+[2016.11.08-01.04.51:819][793]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/David-Level.umap
+[2016.11.08-01.04.51:838][793]LogFileHelpers: Saving map 'David-Level' took 0.130
+[2016.11.08-01.04.51:842][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/PlayerPawn.uasset" SILENT=true
+[2016.11.08-01.04.51:874][793]LogSavePackage: Save=26.316566ms
+[2016.11.08-01.04.51:874][793]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/PlayerPawn77795068430F6D0EB46523A6ADBA7F86.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/PlayerPawn.uasset'
+[2016.11.08-01.04.51:876][793]LogSavePackage: Total save time: 32.798100ms
+[2016.11.08-01.04.51:876][793]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/PlayerPawn.uasset
+[2016.11.08-01.04.53:466][966]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.11.08-01.04.53:516][966]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.11.08-01.04.54:212][ 41]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.04.54:212][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-01.04.54:213][ 41]PIE: New page: PIE session: David-Level (8 Nov 2016 01:04:54)
+[2016.11.08-01.04.54:213][ 41]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-01.04.54:215][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002114s)
+[2016.11.08-01.04.54:215][ 41]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-01.04.54:215][ 41]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2016.11.08-01.04.54:216][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.002907s)
+[2016.11.08-01.04.54:233][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D07E118360
+[2016.11.08-01.04.54:234][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D07E11BEC0
+[2016.11.08-01.04.54:235][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D07E11BC40
+[2016.11.08-01.04.54:235][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D03C3844A0
+[2016.11.08-01.04.54:239][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D03BEBDEE0
+[2016.11.08-01.04.54:254][ 41]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-01.04.54:262][ 41]LogInit: FAudioDevice initialized.
+[2016.11.08-01.04.54:294][ 41]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-01.04.54:295][ 41]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-01.04.54
+[2016.11.08-01.04.54:295][ 41]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.04.54:296][ 41]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.04.54:296][ 41]LogWorld: Bringing up level for play took: 0.001132
+[2016.11.08-01.04.54:297][ 41]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level -0.29
+[2016.11.08-01.04.54:297][ 41]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.04.54:301][ 41]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-01.04.54:301][ 41]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-01.04.54:301][ 41]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-01.04.54:301][ 41]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-01.04.54:310][ 42]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-01.04.54:310][ 42]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-01.04.54:310][ 42]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-01.04.54:318][ 43]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-01.04.54:318][ 43]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-01.04.54:318][ 43]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-01.04.54:326][ 44]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-01.04.54:326][ 44]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-01.04.54:334][ 45]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-01.04.55:979][242]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.04.56:963][360]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.04.58:057][491]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.04.58:868][588]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.05.00:442][776]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.05.01:151][861]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.05.02:274][995]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.05.03:653][160]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.05.04:732][289]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.05.05:257][352]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.05.06:401][489]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.05.06:931][552]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.05.07:608][633]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.05.08:257][711]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.05.09:449][854]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.05.09:950][914]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.05.11:126][ 55]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.05.11:584][110]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.05.12:106][172]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.05.12:590][230]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.05.13:244][308]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.05.14:255][429]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.05.14:489][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.05.14:519][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.05.14:539][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D03685C220
+[2016.11.08-01.05.31:759][ 74]LogActor:Warning: GameNetworkManager /Engine/Transient.World_7:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.08.45:098][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D041662D40
+[2016.11.08-01.08.45:106][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ListOfWords" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/ListOfWords.uasset" SILENT=true
+[2016.11.08-01.08.45:120][887]LogSavePackage: Save=4.489936ms
+[2016.11.08-01.08.45:120][887]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/ListOfWords9FAF5F0D49804AB18182D98367D2626D.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/ListOfWords.uasset'
+[2016.11.08-01.08.45:122][887]LogSavePackage: Total save time: 13.195395ms
+[2016.11.08-01.08.45:122][887]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/ListOfWords.uasset
+[2016.11.08-01.08.47:403][158]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.08.47:403][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-01.08.47:404][158]PIE: New page: PIE session: David-Level (8 Nov 2016 01:08:47)
+[2016.11.08-01.08.47:404][158]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-01.08.47:406][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002401s)
+[2016.11.08-01.08.47:407][158]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-01.08.47:407][158]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2016.11.08-01.08.47:407][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.003277s)
+[2016.11.08-01.08.47:437][158]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-01.08.47:445][158]LogInit: FAudioDevice initialized.
+[2016.11.08-01.08.47:481][158]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-01.08.47:483][158]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-01.08.47
+[2016.11.08-01.08.47:483][158]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.08.47:483][158]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.08.47:483][158]LogWorld: Bringing up level for play took: 0.001303
+[2016.11.08-01.08.47:484][158]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level 0.897
+[2016.11.08-01.08.47:484][158]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.08.47:488][158]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-01.08.47:488][158]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-01.08.47:488][158]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-01.08.47:488][158]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-01.08.47:496][159]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-01.08.47:496][159]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-01.08.47:496][159]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-01.08.47:504][160]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-01.08.47:504][160]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-01.08.47:504][160]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-01.08.47:513][161]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-01.08.47:513][161]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-01.08.47:522][162]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-01.08.49:056][346]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.08.50:938][571]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [9/8]!
+[2016.11.08-01.08.51:655][657]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.08.52:915][808]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [9/8]!
+[2016.11.08-01.08.53:704][902]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.08.54:747][ 27]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [8/7]!
+[2016.11.08-01.09.04:286][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.09.04:318][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.09.04:355][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D08B5B5620
+[2016.11.08-01.09.12:710][128]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.09.12:710][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-01.09.12:710][128]PIE: New page: PIE session: David-Level (8 Nov 2016 01:09:12)
+[2016.11.08-01.09.12:710][128]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-01.09.12:713][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002215s)
+[2016.11.08-01.09.12:713][128]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-01.09.12:713][128]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2016.11.08-01.09.12:713][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.002974s)
+[2016.11.08-01.09.12:741][128]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-01.09.12:749][128]LogInit: FAudioDevice initialized.
+[2016.11.08-01.09.12:782][128]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-01.09.12:784][128]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-01.09.12
+[2016.11.08-01.09.12:784][128]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.09.12:784][128]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.09.12:784][128]LogWorld: Bringing up level for play took: 0.001307
+[2016.11.08-01.09.12:786][128]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level 0.199
+[2016.11.08-01.09.12:786][128]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.09.12:789][128]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-01.09.12:789][128]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-01.09.12:789][128]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-01.09.12:789][128]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-01.09.12:799][129]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-01.09.12:799][129]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-01.09.12:799][129]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-01.09.12:807][130]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-01.09.12:807][130]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-01.09.12:815][131]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-01.09.14:814][371]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [9/8]!
+[2016.11.08-01.09.16:031][517]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.09.16:749][603]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.09.17:332][673]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.09.17:894][740]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.09.19:407][921]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [9/8]!
+[2016.11.08-01.09.19:953][986]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.09.21:647][189]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [9/8]!
+[2016.11.08-01.09.22:764][323]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [9/8]!
+[2016.11.08-01.09.23:115][365]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.09.23:142][365]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.09.23:174][366]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D03BDC9E40
+[2016.11.08-01.09.38:194][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ListOfWords" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/ListOfWords.uasset" SILENT=true
+[2016.11.08-01.09.38:203][114]LogSavePackage: Save=3.217826ms
+[2016.11.08-01.09.38:203][114]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/ListOfWordsCDEEB52C46F0A099F00E2D9C776949E4.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/ListOfWords.uasset'
+[2016.11.08-01.09.38:205][114]LogSavePackage: Total save time: 9.870321ms
+[2016.11.08-01.09.38:205][114]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/ListOfWords.uasset
+[2016.11.08-01.10.01:045][430]LogActor:Warning: GameNetworkManager /Engine/Transient.World_8:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.10.36:527][387]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.11.08-01.12.02:162][708]LogEditorTransaction: Undo Move Node
+[2016.11.08-01.13.06:124][641]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.08-01.13.06:234][641]BlueprintEditorCompileResults: Info [1840.75] Compile of BuildGameMode successful! [in 110 ms]
+[2016.11.08-01.13.07:665][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.08-01.13.07:757][785]LogSavePackage: Save=83.191818ms
+[2016.11.08-01.13.07:757][785]LogSavePackage: Moving 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Saved/BuildGameMode0DB1E71B41B73D7F4EC90DA02D340436.tmp' to 'C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.08-01.13.07:759][785]LogSavePackage: Total save time: 94.133187ms
+[2016.11.08-01.13.07:759][785]LogSavePackage:Display: Finished SavePackage C:/Users/Bigfootone/Documents/Unreal Projects/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.08-01.13.09:762][  5]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.13.09:762][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-01.13.09:762][  5]PIE: New page: PIE session: David-Level (8 Nov 2016 01:13:09)
+[2016.11.08-01.13.09:762][  5]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.08-01.13.09:764][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001878s)
+[2016.11.08-01.13.09:764][  5]LogAIModule: Creating AISystem for world David-Level
+[2016.11.08-01.13.09:765][  5]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2016.11.08-01.13.09:765][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.002695s)
+[2016.11.08-01.13.09:794][  5]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.08-01.13.09:801][  5]LogInit: FAudioDevice initialized.
+[2016.11.08-01.13.09:835][  5]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.08-01.13.09:837][  5]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.08-01.13.09
+[2016.11.08-01.13.09:837][  5]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.13.09:838][  5]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.08-01.13.09:838][  5]LogWorld: Bringing up level for play took: 0.001294
+[2016.11.08-01.13.09:839][  5]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level -0.748
+[2016.11.08-01.13.09:839][  5]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.13.09:843][  5]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.08-01.13.09:843][  5]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.08-01.13.09:843][  5]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.08-01.13.09:843][  5]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.08-01.13.09:853][  6]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.08-01.13.09:853][  6]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.08-01.13.09:853][  6]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.08-01.13.09:861][  7]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.08-01.13.09:861][  7]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.08-01.13.09:869][  8]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.08-01.13.11:738][232]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.13.13:138][400]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [9/8]!
+[2016.11.08-01.13.13:840][484]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.13.14:339][544]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.13.14:765][595]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.13.15:348][665]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.13.16:374][788]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [9/8]!
+[2016.11.08-01.13.17:432][915]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.13.18:358][ 26]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.13.19:933][215]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [8/7]!
+[2016.11.08-01.13.20:325][262]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.13.21:117][357]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.13.22:095][474]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [9/8]!
+[2016.11.08-01.13.22:996][582]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [9/8]!
+[2016.11.08-01.13.23:520][645]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [4/3]!
+[2016.11.08-01.13.24:137][719]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.13.24:904][811]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [8/7]!
+[2016.11.08-01.13.25:296][858]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.08-01.13.26:413][992]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.13.27:121][ 77]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.08-01.13.28:247][212]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.13.28:277][212]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.08-01.13.28:311][213]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D063BC31A0
+[2016.11.08-01.13.34:458][586]Cmd: QUIT_EDITOR
+[2016.11.08-01.13.34:784][586]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.08-01.13.34:840][586]LogExit: Preparing to exit.
+[2016.11.08-01.13.35:864][586]LogExit: Editor shut down
+[2016.11.08-01.13.35:864][586]LogExit: Transaction tracking system shut down
+[2016.11.08-01.13.35:867][586]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D017573880
+[2016.11.08-01.13.35:867][586]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D0182AE5C0
+[2016.11.08-01.13.35:869][586]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D00A71EF20
+[2016.11.08-01.13.35:872][586]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001D08360F4C0
+[2016.11.08-01.13.36:016][586]LogExit: Object subsystem successfully closed.
+[2016.11.08-01.13.36:026][586]LogD3D11RHI: Shutdown
+[2016.11.08-01.13.36:026][586]LogD3D11RHI: CleanupD3DDevice
+[2016.11.08-01.13.36:086][586]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.08-01.13.36:095][586]LogModuleManager: Shutting down and abandoning module DataTableEditor (202)
+[2016.11.08-01.13.36:095][586]LogModuleManager: Shutting down and abandoning module SequencerWidgets (201)
+[2016.11.08-01.13.36:095][586]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.11.08-01.13.36:095][586]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.11.08-01.13.36:095][586]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.11.08-01.13.36:095][586]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.11.08-01.13.36:095][586]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.11.08-01.13.36:095][586]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.11.08-01.13.36:095][586]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.11.08-01.13.36:097][586]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.11.08-01.13.36:100][586]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.11.08-01.13.36:100][586]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.11.08-01.13.36:100][586]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.11.08-01.13.36:100][586]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.11.08-01.13.36:100][586]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.11.08-01.13.36:100][586]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.11.08-01.13.36:482][586]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.11.08-01.13.36:483][586]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.11.08-01.13.36:483][586]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.11.08-01.13.36:483][586]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.11.08-01.13.36:484][586]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.11.08-01.13.36:723][586]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.11.08-01.13.36:723][586]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.11.08-01.13.36:723][586]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.11.08-01.13.36:723][586]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.11.08-01.13.36:723][586]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.11.08-01.13.36:724][586]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.11.08-01.13.36:724][586]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.11.08-01.13.36:724][586]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.11.08-01.13.36:741][586]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.11.08-01.13.36:742][586]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.11.08-01.13.36:742][586]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.11.08-01.13.36:742][586]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.11.08-01.13.36:742][586]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.11.08-01.13.36:742][586]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.11.08-01.13.36:742][586]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.11.08-01.13.36:742][586]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.11.08-01.13.36:742][586]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.11.08-01.13.36:742][586]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.11.08-01.13.36:743][586]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.11.08-01.13.36:743][586]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.11.08-01.13.36:864][586]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.11.08-01.13.36:867][586]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.11.08-01.13.36:867][586]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.11.08-01.13.36:968][586]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.11.08-01.13.36:968][586]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.11.08-01.13.36:968][586]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.11.08-01.13.36:969][586]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.11.08-01.13.36:969][586]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.11.08-01.13.36:969][586]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.11.08-01.13.36:970][586]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.11.08-01.13.36:970][586]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.11.08-01.13.36:970][586]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.11.08-01.13.36:970][586]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.11.08-01.13.36:970][586]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.11.08-01.13.36:970][586]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.11.08-01.13.36:970][586]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.11.08-01.13.36:970][586]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.11.08-01.13.36:970][586]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.11.08-01.13.36:970][586]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.11.08-01.13.36:970][586]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.11.08-01.13.36:970][586]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.11.08-01.13.36:970][586]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.11.08-01.13.36:971][586]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.11.08-01.13.36:971][586]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.11.08-01.13.36:971][586]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.11.08-01.13.36:971][586]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.11.08-01.13.36:971][586]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.11.08-01.13.36:971][586]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.11.08-01.13.36:971][586]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.11.08-01.13.36:971][586]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.11.08-01.13.36:971][586]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.11.08-01.13.36:971][586]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.11.08-01.13.37:042][586]LogDerivedDataCache: Shutdown
+[2016.11.08-01.13.37:042][586]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.11.08-01.13.37:042][586]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.11.08-01.13.37:042][586]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.11.08-01.13.37:042][586]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.11.08-01.13.37:042][586]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.11.08-01.13.37:044][586]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.11.08-01.13.37:048][586]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.11.08-01.13.37:049][586]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.11.08-01.13.37:049][586]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.11.08-01.13.37:049][586]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.11.08-01.13.37:049][586]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.11.08-01.13.37:049][586]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.11.08-01.13.37:049][586]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.11.08-01.13.37:049][586]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.11.08-01.13.37:049][586]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.11.08-01.13.37:049][586]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.11.08-01.13.38:051][586]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.11.08-01.13.38:051][586]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.11.08-01.13.38:051][586]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.11.08-01.13.38:051][586]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.08-01.13.38:051][586]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.08-01.13.38:051][586]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.08-01.13.38:051][586]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.08-01.13.38:054][586]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.08-01.13.38:055][586]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.08-01.13.38:055][586]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.08-01.13.38:055][586]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.08-01.13.38:055][586]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.08-01.13.38:055][586]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.08-01.13.38:055][586]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.08-01.13.38:055][586]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.08-01.13.38:055][586]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.08-01.13.38:055][586]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.08-01.13.38:056][586]LogExit: Exiting.
+[2016.11.08-01.13.38:057][586]Log file closed, 11/08/16 01:13:38
