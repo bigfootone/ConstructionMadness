@@ -1,0 +1,900 @@
+﻿[2016.11.11-12.18.54:624][  0]Log file open, 11/11/16 12:18:54
+[2016.11.11-12.18.54:624][  0]LogInit:Display: Running engine for game: ConstructionMadness
+[2016.11.11-12.18.54:624][  0]LogPlatformFile: Not using cached read wrapper
+[2016.11.11-12.18.54:624][  0]LogInit:Display: RandInit(-1865952923) SRandInit(-1865952921).
+[2016.11.11-12.18.54:624][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.11.11-12.18.54:624][  0]LogStats: Stats thread started at 1.474771
+[2016.11.11-12.18.54:624][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.11.11-12.18.54:624][  0]LogInit: API Version: 2758231
+[2016.11.11-12.18.54:624][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.11.11-12.18.54:624][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.11.11-12.18.54:624][  0]LogInit: Build Configuration: Development
+[2016.11.11-12.18.54:624][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.11.11-12.18.54:624][  0]LogInit: Command line:  
+[2016.11.11-12.18.54:624][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.11.11-12.18.54:624][  0]LogInit: Rocket: 1
+[2016.11.11-12.18.54:742][  0]LogInit: Using libcurl 7.41.0
+[2016.11.11-12.18.54:742][  0]LogInit:  - built for x86_64-pc-win32
+[2016.11.11-12.18.54:742][  0]LogInit:  - supports SSL with WinSSL
+[2016.11.11-12.18.54:742][  0]LogInit:  - other features:
+[2016.11.11-12.18.54:742][  0]LogInit:      CURL_VERSION_SSL
+[2016.11.11-12.18.54:742][  0]LogInit:      CURL_VERSION_IPV6
+[2016.11.11-12.18.54:742][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.11.11-12.18.54:742][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.11.11-12.18.54:742][  0]LogInit:      CURL_VERSION_IDN
+[2016.11.11-12.18.54:742][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.11.11-12.18.54:742][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.11.11-12.18.54:742][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.11.11-12.18.54:757][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.11.11-12.18.54:757][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.11.11-12.18.54:840][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.11.11-12.18.54:856][  0]LogInit: Object subsystem initialized
+[2016.11.11-12.18.54:909][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.11-12.18.54:909][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.11-12.18.54:963][  0]LogInit: Computer: LAPTOP-TCEGHJTQ
+[2016.11.11-12.18.54:963][  0]LogInit: User: David
+[2016.11.11-12.18.54:963][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.11.11-12.18.54:963][  0]LogInit: High frequency timer resolution =2.338335 MHz
+[2016.11.11-12.18.54:963][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.11-12.18.54:963][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-12.18.54:963][  0]LogMemory: Process Physical Memory: 55.81 MB used, 55.81 MB peak
+[2016.11.11-12.18.54:963][  0]LogMemory: Process Virtual Memory: 57.47 MB used, 57.47 MB peak
+[2016.11.11-12.18.54:963][  0]LogMemory: Physical Memory: 2802.78 MB used, 16297.84 MB total
+[2016.11.11-12.18.54:963][  0]LogMemory: Virtual Memory: 383.04 MB used, 134217728.00 MB total
+[2016.11.11-12.18.55:497][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.11.11-12.18.56:181][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 5500 (Feature Level 11_0)
+[2016.11.11-12.18.56:181][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8148MB of shared system memory, 1 output[s]
+[2016.11.11-12.18.57:045][  0]LogD3D11RHI: Found D3D11 adapter 1: AMD Radeon(TM) R9 M375 (Feature Level 11_0)
+[2016.11.11-12.18.57:045][  0]LogD3D11RHI: Adapter has 4074MB of dedicated video memory, 0MB of dedicated system memory, and 8148MB of shared system memory, 0 output[s]
+[2016.11.11-12.18.57:063][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.11.11-12.18.57:063][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8148MB of shared system memory, 0 output[s]
+[2016.11.11-12.18.57:063][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.11.11-12.18.57:068][  0]LogD3D11RHI: !Direct3DDevice
+[2016.11.11-12.18.57:068][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.11-12.18.57:073][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.11-12.18.57:135][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Intermediate/Shaders/WorkingDirectory/5944/).
+[2016.11.11-12.18.57:135][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/76CEA8894A7933A75AFEDC86B0C74353/'.
+[2016.11.11-12.18.57:136][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.11-12.19.00:382][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.11-12.19.00:387][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.11-12.19.00:392][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.11-12.19.00:397][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.11-12.19.00:402][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.11-12.19.00:410][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.11-12.19.00:414][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.11-12.19.00:444][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.11-12.19.00:451][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.11-12.19.00:468][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.11-12.19.00:473][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.11-12.19.00:483][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.11-12.19.00:483][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.11-12.19.00:484][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.11-12.19.00:573][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.11-12.19.00:577][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.11-12.19.00:581][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.11-12.19.00:589][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.11-12.19.00:589][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.11-12.19.01:144][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.11-12.19.01:782][  0]LogDerivedDataCache: Loaded boot cache 0.64s 41MB C:/Users/David/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.11.11-12.19.01:782][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.11.11-12.19.01:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.11-12.19.01:782][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.11-12.19.01:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.11-12.19.01:782][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.11-12.19.01:998][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.11-12.19.02:009][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.11-12.19.17:819][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.11-12.19.17:944][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.11.11-12.19.19:334][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.11-12.19.19:334][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.11-12.19.23:990][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.11-12.19.34:997][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.11-12.19.35:803][  0]LogAssetRegistry: FAssetRegistry took 0.0373 seconds to start up
+[2016.11.11-12.19.40:134][  0]SourceControl: Info Source control is disabled
+[2016.11.11-12.19.40:155][  0]SourceControl: Info Source control is disabled
+[2016.11.11-12.19.40:463][  0]SourceControl: Info Source control is disabled
+[2016.11.11-12.19.40:572][  0]SourceControl: Info Source control is disabled
+[2016.11.11-12.19.42:199][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.11.11-12.19.42:199][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.11.11-12.19.43:009][  0]LogEngine: Initializing Engine...
+[2016.11.11-12.19.43:028][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.11.11-12.19.43:116][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.11-12.19.44:347][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.11-12.19.44:581][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-12.19.44:836][  0]LogInit: FAudioDevice initialized.
+[2016.11.11-12.19.44:874][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/David/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.11.11-12.19.44:882][  0]LogInit: Texture streaming: Enabled
+[2016.11.11-12.19.45:028][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.11.11-12.19.45:029][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.11.11-12.19.45:030][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 51bad3324626f8b32aeb23b5d6210868|c381b92b33784ccaa7b778c4b0f76233|7a75b928-ee2d-4f84-b046-c4f65b0113e6
+[2016.11.11-12.19.45:041][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.11.11-12.19.45:156][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.11-12.19.45:440][  0]LogInit: Transaction tracking system initialized
+[2016.11.11-12.19.46:859][  0]BlueprintLog: New page: Editor Load
+[2016.11.11-12.19.49:903][  0]LocalizationService: Info Localization service is disabled
+[2016.11.11-12.19.51:818][  0]LogConsoleResponse:Display: 
+[2016.11.11-12.19.55:164][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/' took 0.02s
+[2016.11.11-12.19.55:164][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.11.11-12.19.56:663][  0]SourceControl: Info Source control is disabled
+[2016.11.11-12.19.56:751][  0]Cmd: MAP LOAD FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/David-Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.11-12.19.56:774][  0]LightingResults: New page: Lighting Build
+[2016.11.11-12.19.57:008][  0]MapCheck: New page: Map Check
+[2016.11.11-12.19.57:008][  0]LightingResults: New page: Lighting Build
+[2016.11.11-12.19.57:574][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0C5582160
+[2016.11.11-12.20.01:215][  0]LogAIModule: Creating AISystem for world David-Level
+[2016.11.11-12.20.01:756][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.11-12.20.01:843][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.11-12.20.01:966][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 123.109ms to complete.
+[2016.11.11-12.20.01:966][  0]LogFileHelpers: Loading map 'David-Level' took 5.235
+[2016.11.11-12.20.04:284][  0]LogCollectionManager: Loaded 0 collections in 0.008394 seconds
+[2016.11.11-12.20.04:617][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/Collections/' took 0.01s
+[2016.11.11-12.20.04:617][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Developers/David/Collections/' took 0.01s
+[2016.11.11-12.20.04:617][  0]LogFileCache: Scanning file cache for directory 'C:/Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Collections/' took 0.01s
+[2016.11.11-12.20.04:617][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000020 seconds
+[2016.11.11-12.20.04:698][  0]LogContentBrowser: Native class hierarchy populated in 0.0317 seconds. Added 1893 classes and 338 folders.
+[2016.11.11-12.20.04:962][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.11.11-12.20.08:125][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2016.11.11-12.20.08:359][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2016.11.11-12.20.09:550][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.11-12.20.10:053][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.11-12.20.10:168][  0]LogLoad: Full Startup: 78.74 seconds (BP compile: 1.32 seconds)
+[2016.11.11-12.20.10:239][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.11.11-12.20.10:990][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.11.11-12.20.12:354][  0]LogRenderer: Reallocating scene render targets to support 1120x572 (Frame:2).
+[2016.11.11-12.20.13:461][  7]LogAssetRegistry: Asset discovery search completed in 37.6718 seconds
+[2016.11.11-12.20.13:476][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.11-12.20.13:476][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000934 seconds (updated 0 objects)
+[2016.11.11-12.20.21:718][265]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.11.11-12.20.23:349][265]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 107 classes and 0 folders.
+[2016.11.11-12.20.24:942][265]LogActor:Warning: GameNetworkManager /Engine/Transient.World_2:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain_C' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:EventGraph.K2Node_Event_160' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:EventGraph.K2Node_Event_161' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:Get_ActiveWord_Text_0.K2Node_FunctionEntry_17' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:Get_ActiveWord_Text_0.K2Node_FunctionResult_1' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetFifthWord.K2Node_FunctionResult_11' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetTypedLetters.K2Node_FunctionResult_5' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetTypedLetters.K2Node_FunctionEntry_1307' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetCurrentPoints.K2Node_FunctionResult_1' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetCurrentPoints.K2Node_FunctionEntry_123' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetFifthWord.K2Node_FunctionEntry_2008' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetFourthWord.K2Node_FunctionResult_10' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetNotTypedLetters.K2Node_FunctionResult_6' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetNotTypedLetters.K2Node_FunctionEntry_1344' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetSecondWord.K2Node_FunctionResult_8' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetSecondWord.K2Node_FunctionEntry_1963' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetFourthWord.K2Node_FunctionEntry_1995' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetThirdWord.K2Node_FunctionResult_9' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetThirdWord.K2Node_FunctionEntry_1974' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:867][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetTotalPoints.K2Node_FunctionResult_2' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:868][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.HudMain:GetTotalPoints.K2Node_FunctionEntry_239' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:868][956]LogMetaData: Removing '/Game/Blueprints/UI/HudMain.SKEL_HudMain_C' ref from Metadata '/Game/Blueprints/HudMain.PackageMetaData'
+[2016.11.11-12.20.39:954][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HudMain" FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/UI/HudMain.uasset" SILENT=true
+[2016.11.11-12.20.40:072][956]LogSavePackage: Save=102.993797ms
+[2016.11.11-12.20.40:072][956]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/HudMain6CC7B56041FC1240D32C94B844F91C2D.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/UI/HudMain.uasset'
+[2016.11.11-12.20.40:075][956]LogSavePackage: Total save time: 119.398631ms
+[2016.11.11-12.20.40:075][956]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/UI/HudMain.uasset
+[2016.11.11-12.20.40:299][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainController" FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/MainController.uasset" SILENT=true
+[2016.11.11-12.20.40:621][956]LogSavePackage: Save=43.948792ms
+[2016.11.11-12.20.40:621][956]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/MainController155AD9ED409D20E7F16C3F9109EED35C.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/MainController.uasset'
+[2016.11.11-12.20.40:622][956]LogSavePackage: Total save time: 321.887154ms
+[2016.11.11-12.20.40:622][956]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/MainController.uasset
+[2016.11.11-12.20.53:215][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.11-12.20.53:273][372]LogSavePackage: Save=8.778041ms
+[2016.11.11-12.20.53:273][372]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/MainMenu463ABC4349F3753B724C1B984C95564E.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/MainMenu.umap'
+[2016.11.11-12.20.53:277][372]LogSavePackage: Total save time: 13.449311ms
+[2016.11.11-12.20.53:277][372]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/MainMenu.umap
+[2016.11.11-12.20.53:277][372]LogFileHelpers: Saving map 'MainMenu' took 0.117
+[2016.11.11-12.20.53:296][372]Cmd: MAP LOAD FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.11-12.20.53:296][372]LightingResults: New page: Lighting Build
+[2016.11.11-12.20.53:315][372]LoadErrors: New page: Loading map: MainMenu.umap
+[2016.11.11-12.20.53:316][372]MapCheck: New page: Map Check
+[2016.11.11-12.20.53:316][372]LightingResults: New page: Lighting Build
+[2016.11.11-12.20.53:397][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0B86F94E0
+[2016.11.11-12.20.53:404][372]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.11-12.20.53:405][372]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-12.20.53:507][372]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.11-12.20.53:583][372]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.657ms to complete.
+[2016.11.11-12.20.53:584][372]LogFileHelpers: Loading map 'MainMenu' took 0.305
+[2016.11.11-12.22.04:000][974]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_17.VerticalBox_52
+[2016.11.11-12.22.04:000][974]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_4.WidgetTree_18.VerticalBox_52
+[2016.11.11-12.22.04:000][974]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_19.VerticalBox_52
+[2016.11.11-12.22.04:000][974]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_5.WidgetTree_20.VerticalBox_52
+[2016.11.11-12.22.04:000][974]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_21.VerticalBox_52
+[2016.11.11-12.22.04:000][974]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_6.WidgetTree_22.VerticalBox_52
+[2016.11.11-12.22.04:000][974]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52.VerticalBoxSlot_48) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_29).  Import failed...
+[2016.11.11-12.22.04:000][974]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_52.VerticalBoxSlot_48''
+[2016.11.11-12.22.04:001][974]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_17.VerticalBox_52
+[2016.11.11-12.22.04:001][974]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_4.WidgetTree_18.VerticalBox_52
+[2016.11.11-12.22.04:001][974]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_19.VerticalBox_52
+[2016.11.11-12.22.04:001][974]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_5.WidgetTree_20.VerticalBox_52
+[2016.11.11-12.22.04:001][974]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_21.VerticalBox_52
+[2016.11.11-12.22.04:001][974]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_6.WidgetTree_22.VerticalBox_52
+[2016.11.11-12.22.04:001][974]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52.VerticalBoxSlot_20) from referencer (Button /Engine/UMG/Editor/Transient.Button_66).  Import failed...
+[2016.11.11-12.22.04:001][974]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_52.VerticalBoxSlot_20''
+[2016.11.11-12.22.04:693][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_17.VerticalBox_52
+[2016.11.11-12.22.04:693][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_4.WidgetTree_18.VerticalBox_52
+[2016.11.11-12.22.04:693][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_19.VerticalBox_52
+[2016.11.11-12.22.04:693][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_5.WidgetTree_20.VerticalBox_52
+[2016.11.11-12.22.04:693][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_21.VerticalBox_52
+[2016.11.11-12.22.04:693][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_6.WidgetTree_22.VerticalBox_52
+[2016.11.11-12.22.04:693][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_23.VerticalBox_52
+[2016.11.11-12.22.04:693][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_7.WidgetTree_24.VerticalBox_52
+[2016.11.11-12.22.04:693][992]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52.VerticalBoxSlot_48) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_29).  Import failed...
+[2016.11.11-12.22.04:693][992]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_52.VerticalBoxSlot_48''
+[2016.11.11-12.22.04:694][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_17.VerticalBox_52
+[2016.11.11-12.22.04:694][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_4.WidgetTree_18.VerticalBox_52
+[2016.11.11-12.22.04:694][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_19.VerticalBox_52
+[2016.11.11-12.22.04:694][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_5.WidgetTree_20.VerticalBox_52
+[2016.11.11-12.22.04:694][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_21.VerticalBox_52
+[2016.11.11-12.22.04:694][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_6.WidgetTree_22.VerticalBox_52
+[2016.11.11-12.22.04:694][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_23.VerticalBox_52
+[2016.11.11-12.22.04:694][992]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_7.WidgetTree_24.VerticalBox_52
+[2016.11.11-12.22.04:694][992]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52.VerticalBoxSlot_20) from referencer (Button /Engine/UMG/Editor/Transient.Button_66).  Import failed...
+[2016.11.11-12.22.04:694][992]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_52.VerticalBoxSlot_20''
+[2016.11.11-12.22.05:618][ 16]LogEditorTransaction: Undo Paste clipboard contents
+[2016.11.11-12.22.06:696][ 57]LogEditorTransaction: Undo Paste clipboard contents
+[2016.11.11-12.22.15:475][314]LogUObjectHash:Warning: Ambiguous search, could be Spacer /Engine/UMG/Editor/Transient.Spacer_29 or Spacer /Engine/UMG/Editor/Transient.Spacer_29
+[2016.11.11-12.22.15:476][314]LogUObjectHash:Warning: Ambiguous search, could be WidgetSlotPair /Engine/UMG/Editor/Transient.WidgetSlotPair_0 or WidgetSlotPair /Engine/UMG/Editor/Transient.WidgetSlotPair_0
+[2016.11.11-12.22.15:476][314]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/UMG/Editor/Transient.Button_66 or Button /Engine/UMG/Editor/Transient.Button_66
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be WidgetSlotPair /Engine/UMG/Editor/Transient.WidgetSlotPair_1 or WidgetSlotPair /Engine/UMG/Editor/Transient.WidgetSlotPair_1
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_17.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_4.WidgetTree_18.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_19.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_5.WidgetTree_20.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_21.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_6.WidgetTree_22.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_23.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_7.WidgetTree_24.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_25.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_8.WidgetTree_26.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_27.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_9.WidgetTree_28.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_29.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_10.WidgetTree_30.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_31.VerticalBox_52
+[2016.11.11-12.22.15:477][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_11.WidgetTree_32.VerticalBox_52
+[2016.11.11-12.22.15:478][314]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52.VerticalBoxSlot_48) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_29).  Import failed...
+[2016.11.11-12.22.15:478][314]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_52.VerticalBoxSlot_48''
+[2016.11.11-12.22.15:478][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_17.VerticalBox_52
+[2016.11.11-12.22.15:478][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_4.WidgetTree_18.VerticalBox_52
+[2016.11.11-12.22.15:478][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_19.VerticalBox_52
+[2016.11.11-12.22.15:478][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_5.WidgetTree_20.VerticalBox_52
+[2016.11.11-12.22.15:478][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_21.VerticalBox_52
+[2016.11.11-12.22.15:478][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_6.WidgetTree_22.VerticalBox_52
+[2016.11.11-12.22.15:478][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_23.VerticalBox_52
+[2016.11.11-12.22.15:478][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_7.WidgetTree_24.VerticalBox_52
+[2016.11.11-12.22.15:478][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_25.VerticalBox_52
+[2016.11.11-12.22.15:479][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_8.WidgetTree_26.VerticalBox_52
+[2016.11.11-12.22.15:479][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_27.VerticalBox_52
+[2016.11.11-12.22.15:479][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_9.WidgetTree_28.VerticalBox_52
+[2016.11.11-12.22.15:479][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_29.VerticalBox_52
+[2016.11.11-12.22.15:479][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_10.WidgetTree_30.VerticalBox_52
+[2016.11.11-12.22.15:479][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_31.VerticalBox_52
+[2016.11.11-12.22.15:479][314]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_11.WidgetTree_32.VerticalBox_52
+[2016.11.11-12.22.15:479][314]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52.VerticalBoxSlot_20) from referencer (Button /Engine/UMG/Editor/Transient.Button_66).  Import failed...
+[2016.11.11-12.22.15:479][314]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_52.VerticalBoxSlot_20''
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_17.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_4.WidgetTree_18.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_19.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_5.WidgetTree_20.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_21.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_6.WidgetTree_22.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_23.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_7.WidgetTree_24.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_25.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_8.WidgetTree_26.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_27.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_9.WidgetTree_28.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_29.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_10.WidgetTree_30.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_31.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_11.WidgetTree_32.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_33.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_12.WidgetTree_34.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52.VerticalBoxSlot_48) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_29).  Import failed...
+[2016.11.11-12.22.16:216][334]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_52.VerticalBoxSlot_48''
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_17.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_4.WidgetTree_18.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_19.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_5.WidgetTree_20.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_21.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_6.WidgetTree_22.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_23.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_7.WidgetTree_24.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_25.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_8.WidgetTree_26.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_27.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_9.WidgetTree_28.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_29.VerticalBox_52
+[2016.11.11-12.22.16:216][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_10.WidgetTree_30.VerticalBox_52
+[2016.11.11-12.22.16:217][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_31.VerticalBox_52
+[2016.11.11-12.22.16:217][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_11.WidgetTree_32.VerticalBox_52
+[2016.11.11-12.22.16:217][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu_C:WidgetTree_33.VerticalBox_52
+[2016.11.11-12.22.16:217][334]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52 or VerticalBox /Engine/Transient.World_4:HudMainMenu_C_12.WidgetTree_34.VerticalBox_52
+[2016.11.11-12.22.16:217][334]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HudMainMenu.HudMainMenu:WidgetTree.VerticalBox_52.VerticalBoxSlot_20) from referencer (Button /Engine/UMG/Editor/Transient.Button_66).  Import failed...
+[2016.11.11-12.22.16:217][334]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_52.VerticalBoxSlot_20''
+[2016.11.11-12.23.30:137][331]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.11.11-12.23.30:146][331]LogPlayLevel: [PlayLevel] Compiling HudMainMenu before play...
+[2016.11.11-12.23.30:197][331]LogPlayLevel: PlayLevel: Blueprint regeneration took 59 ms (1 blueprints)
+[2016.11.11-12.23.30:278][331]PIE: New page: PIE session: MainMenu (11 Nov 2016 12:23:30)
+[2016.11.11-12.23.30:278][331]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2016.11.11-12.23.30:279][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000529s)
+[2016.11.11-12.23.30:279][331]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-12.23.30:280][331]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2016.11.11-12.23.30:280][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.001510s)
+[2016.11.11-12.23.30:318][331]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-12.23.30:327][331]LogInit: FAudioDevice initialized.
+[2016.11.11-12.23.30:412][331]LogWorld: Game class is 'GameMode'
+[2016.11.11-12.23.30:413][331]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-12.23.30
+[2016.11.11-12.23.30:413][331]LogActor:Warning: GameSession /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.23.30:413][331]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.23.30:413][331]LogWorld: Bringing up level for play took: 0.000901
+[2016.11.11-12.23.30:557][331]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainMenu 0.427
+[2016.11.11-12.23.32:472][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0F97A3060
+[2016.11.11-12.23.34:725][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.11-12.23.34:725][451]PIE: New page: PIE session: MainMenu (11 Nov 2016 12:23:34)
+[2016.11.11-12.23.34:725][451]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2016.11.11-12.23.34:726][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000812s)
+[2016.11.11-12.23.34:727][451]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-12.23.34:727][451]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2016.11.11-12.23.34:728][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002146s)
+[2016.11.11-12.23.34:777][451]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-12.23.34:785][451]LogInit: FAudioDevice initialized.
+[2016.11.11-12.23.34:818][451]LogWorld: Game class is 'GameMode'
+[2016.11.11-12.23.34:819][451]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-12.23.34
+[2016.11.11-12.23.34:819][451]LogActor:Warning: GameSession /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.23.34:820][451]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.23.34:820][451]LogWorld: Bringing up level for play took: 0.001243
+[2016.11.11-12.23.34:821][451]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainMenu 0.691
+[2016.11.11-12.23.35:476][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0F9365BC0
+[2016.11.11-12.24.04:005][354]LogRenderer: Reallocating scene render targets to support 1144x712 (Frame:4992).
+[2016.11.11-12.25.25:959][800]BlueprintLog: New page: Compile MainMenuController
+[2016.11.11-12.25.26:124][800]BlueprintEditorCompileResults: Info [0394.69] Compile of MainMenuController successful! [in 165 ms]
+[2016.11.11-12.25.27:161][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HudMainMenu" FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/UI/HudMainMenu.uasset" SILENT=true
+[2016.11.11-12.25.27:193][830]LogSavePackage: Save=25.114023ms
+[2016.11.11-12.25.27:193][830]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/HudMainMenuA3A568094921151319CE9F8B32D7F5A9.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/UI/HudMainMenu.uasset'
+[2016.11.11-12.25.27:202][830]LogSavePackage: Total save time: 34.488644ms
+[2016.11.11-12.25.27:202][830]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/UI/HudMainMenu.uasset
+[2016.11.11-12.25.27:247][830]LogSavePackage: Save=34.499332ms
+[2016.11.11-12.25.27:247][830]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/MainMenuControllerE65604F14CAECB3C202660AB3E3F9D90.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/MainMenuController.uasset'
+[2016.11.11-12.25.27:252][830]LogSavePackage: Total save time: 39.516151ms
+[2016.11.11-12.25.27:252][830]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/MainMenuController.uasset
+[2016.11.11-12.25.31:923][ 11]LogEditorViewport: Clicking Background
+[2016.11.11-12.25.46:684][638]LogAIModule: Creating AISystem for world David-Level
+[2016.11.11-12.25.46:734][638]Cmd: MAP LOAD FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/David-Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.11-12.25.46:734][638]LightingResults: New page: Lighting Build
+[2016.11.11-12.25.46:799][638]LoadErrors: New page: Loading map: David-Level.umap
+[2016.11.11-12.25.46:800][638]MapCheck: New page: Map Check
+[2016.11.11-12.25.46:800][638]LightingResults: New page: Lighting Build
+[2016.11.11-12.25.46:861][638]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0C39A3880
+[2016.11.11-12.25.46:876][638]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.11-12.25.46:941][638]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.11-12.25.49:282][638]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 2,340.696ms to complete.
+[2016.11.11-12.25.49:284][638]LogFileHelpers: Loading map 'David-Level' took 2.550
+[2016.11.11-12.25.50:216][668]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.11-12.25.50:216][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.11-12.25.50:217][668]PIE: New page: PIE session: David-Level (11 Nov 2016 12:25:50)
+[2016.11.11-12.25.50:217][668]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.11-12.25.50:221][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004257s)
+[2016.11.11-12.25.50:223][668]LogAIModule: Creating AISystem for world David-Level
+[2016.11.11-12.25.50:223][668]LogPlayLevel: PIE: World Init took: (0.001679s)
+[2016.11.11-12.25.50:223][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.006274s)
+[2016.11.11-12.25.50:276][668]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-12.25.50:286][668]LogInit: FAudioDevice initialized.
+[2016.11.11-12.25.50:320][668]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.11-12.25.50:322][668]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.11-12.25.50
+[2016.11.11-12.25.50:322][668]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.25.50:322][668]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.25.50:322][668]LogWorld: Bringing up level for play took: 0.001594
+[2016.11.11-12.25.50:324][668]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level 0.194
+[2016.11.11-12.25.50:324][668]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.11-12.25.50:333][668]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.11-12.25.50:334][668]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.11-12.25.50:334][668]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.11-12.25.50:334][668]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.11-12.25.50:356][669]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.11-12.25.50:356][669]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.11-12.25.50:356][669]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.11-12.25.50:367][670]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.11-12.25.50:367][670]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.11-12.25.50:368][670]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.11-12.25.50:381][671]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.11-12.25.50:381][671]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.11-12.25.50:399][672]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.11-12.25.50:399][672]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.11-12.25.50:422][673]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.11-12.25.58:363][ 34]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.11-12.26.00:118][106]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.11-12.26.02:137][183]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [8/7]!
+[2016.11.11-12.26.04:099][263]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [9/8]!
+[2016.11.11-12.26.05:672][329]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.11-12.26.06:748][376]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [5/4]!
+[2016.11.11-12.26.08:186][446]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [9/8]!
+[2016.11.11-12.26.10:090][539]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [8/7]!
+[2016.11.11-12.26.11:940][624]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue out of bounds [6/5]!
+[2016.11.11-12.26.13:484][694]Cmd: EnableGDT
+[2016.11.11-12.26.13:484][694]LogGameplayDebugger:Warning: Got from client: EnableGDT 
+[2016.11.11-12.26.24:075][195]Cmd: EnableGDT
+[2016.11.11-12.26.24:075][195]LogGameplayDebugger:Warning: Got from client: EnableGDT 
+[2016.11.11-12.26.25:560][268]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.11-12.26.25:608][268]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.11-12.26.25:692][269]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0F8F479C0
+[2016.11.11-12.26.31:366][423]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.11-12.26.31:366][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.11-12.26.31:366][423]PIE: New page: PIE session: David-Level (11 Nov 2016 12:26:31)
+[2016.11.11-12.26.31:366][423]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.11-12.26.31:372][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005433s)
+[2016.11.11-12.26.31:373][423]LogAIModule: Creating AISystem for world David-Level
+[2016.11.11-12.26.31:373][423]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2016.11.11-12.26.31:373][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.006705s)
+[2016.11.11-12.26.31:455][423]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-12.26.31:469][423]LogInit: FAudioDevice initialized.
+[2016.11.11-12.26.31:510][423]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.11-12.26.31:514][423]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 0) at 2016.11.11-12.26.31
+[2016.11.11-12.26.31:514][423]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.26.31:514][423]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.26.31:514][423]LogWorld: Bringing up level for play took: 0.002823
+[2016.11.11-12.26.31:517][423]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level -0.613
+[2016.11.11-12.26.31:517][423]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.11-12.26.31:524][423]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.11-12.26.31:524][423]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.11-12.26.31:524][423]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.11-12.26.31:524][423]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.11-12.26.31:543][424]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.11-12.26.31:543][424]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.11-12.26.31:543][424]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.11-12.26.31:554][425]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.11-12.26.31:554][425]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.11-12.26.31:569][426]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.11-12.26.31:569][426]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.11-12.26.31:596][427]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.11-12.26.38:337][711]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.11-12.26.38:383][711]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.11-12.26.38:449][712]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A090080540
+[2016.11.11-12.27.16:520][625]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.11.11-12.27.47:442][487]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-12.27.49:491][487]Cmd: MAP LOAD FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.11-12.27.49:492][487]LightingResults: New page: Lighting Build
+[2016.11.11-12.27.49:518][487]LoadErrors: New page: Loading map: MainMenu.umap
+[2016.11.11-12.27.49:519][487]MapCheck: New page: Map Check
+[2016.11.11-12.27.49:519][487]LightingResults: New page: Lighting Build
+[2016.11.11-12.27.49:576][487]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0CBE88540
+[2016.11.11-12.27.49:659][487]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.11-12.27.49:707][487]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.11-12.27.49:790][487]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.851ms to complete.
+[2016.11.11-12.27.49:790][487]LogFileHelpers: Loading map 'MainMenu' took 0.300
+[2016.11.11-12.27.55:085][686]LogEditorViewport: Clicking Background
+[2016.11.11-12.28.09:027][164]LogEditorTransaction: Undo Create Pin Link
+[2016.11.11-12.28.11:448][204]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.11.11-12.28.11:549][204]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.11.11-12.28.32:368][828]LogActor:Warning: GameNetworkManager /Engine/Transient.World_7:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.29.09:097][ 75]Cmd: UpdateLandscapeSetup
+[2016.11.11-12.29.16:818][369]Cmd: UpdateLandscapeSetup
+[2016.11.11-12.29.27:233][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.11-12.29.27:282][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0BC330720
+[2016.11.11-12.29.27:284][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0BC330220
+[2016.11.11-12.29.27:284][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0CA560A40
+[2016.11.11-12.29.27:286][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A08C9393A0
+[2016.11.11-12.29.27:288][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0BA2B5580
+[2016.11.11-12.29.27:319][726]LogSavePackage: Save=11.975616ms
+[2016.11.11-12.29.27:319][726]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/MainMenuAE4D554F462FC76A7DC5ED892509BA0E.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/MainMenu.umap'
+[2016.11.11-12.29.27:322][726]LogSavePackage: Total save time: 30.019652ms
+[2016.11.11-12.29.27:322][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/MainMenu.umap
+[2016.11.11-12.29.32:378][918]LogAIModule: Creating AISystem for world David-Level
+[2016.11.11-12.29.34:112][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.11-12.29.34:604][918]LogSavePackage: Save=259.061676ms
+[2016.11.11-12.29.34:604][918]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/BuildGameModeB14CCF694D683A42C137C5B63B56721C.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.11-12.29.34:608][918]LogSavePackage: Total save time: 494.372707ms
+[2016.11.11-12.29.34:608][918]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.11-12.29.34:612][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2016.11.11-12.29.34:630][918]LogSavePackage: Save=15.437480ms
+[2016.11.11-12.29.34:630][918]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/MainMenu85CE1BD6479E246F4AE2418BF2CACC5F.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/MainMenu.uasset'
+[2016.11.11-12.29.34:632][918]LogSavePackage: Total save time: 18.349383ms
+[2016.11.11-12.29.34:632][918]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/MainMenu.uasset
+[2016.11.11-12.29.34:634][918]Cmd: MAP LOAD FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/David-Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.11-12.29.34:634][918]LightingResults: New page: Lighting Build
+[2016.11.11-12.29.34:654][918]LoadErrors: New page: Loading map: David-Level.umap
+[2016.11.11-12.29.34:655][918]MapCheck: New page: Map Check
+[2016.11.11-12.29.34:655][918]LightingResults: New page: Lighting Build
+[2016.11.11-12.29.34:690][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0CBE8A700
+[2016.11.11-12.29.34:740][918]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.11-12.29.34:768][918]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.11-12.29.34:816][918]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.683ms to complete.
+[2016.11.11-12.29.34:816][918]LogFileHelpers: Loading map 'David-Level' took 0.184
+[2016.11.11-12.29.54:536][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.11-12.29.54:728][547]LogSavePackage: Save=149.690277ms
+[2016.11.11-12.29.54:729][547]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/BuildGameModeEBEB2C3C403E2ACF37E9408507341C7E.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.11-12.29.54:732][547]LogSavePackage: Total save time: 191.648331ms
+[2016.11.11-12.29.54:732][547]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.11-12.30.03:039][817]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-12.30.03:081][817]Cmd: MAP LOAD FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.11-12.30.03:081][817]LightingResults: New page: Lighting Build
+[2016.11.11-12.30.03:097][817]LoadErrors: New page: Loading map: MainMenu.umap
+[2016.11.11-12.30.03:098][817]MapCheck: New page: Map Check
+[2016.11.11-12.30.03:098][817]LightingResults: New page: Lighting Build
+[2016.11.11-12.30.03:136][817]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0CBE8AAC0
+[2016.11.11-12.30.03:179][817]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.11-12.30.03:212][817]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.11-12.30.03:257][817]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.874ms to complete.
+[2016.11.11-12.30.03:258][817]LogFileHelpers: Loading map 'MainMenu' took 0.178
+[2016.11.11-12.32.22:355][203]Cmd: UpdateLandscapeSetup
+[2016.11.11-12.32.28:127][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.11-12.32.28:189][439]LogSavePackage: Save=8.737842ms
+[2016.11.11-12.32.28:189][439]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/MainMenuC1A277864EEC07B092ED19A916F4D20A.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/MainMenu.umap'
+[2016.11.11-12.32.28:197][439]LogSavePackage: Total save time: 25.937259ms
+[2016.11.11-12.32.28:197][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/MainMenu.umap
+[2016.11.11-12.32.28:241][439]LogFileHelpers: Saving map 'MainMenu' took 0.220
+[2016.11.11-12.32.28:245][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/MainMenu.uasset" SILENT=true
+[2016.11.11-12.32.28:275][439]LogSavePackage: Save=13.649028ms
+[2016.11.11-12.32.28:275][439]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/MainMenu3D7D1B164AE94598AC8337A5CEEA3A5F.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/MainMenu.uasset'
+[2016.11.11-12.32.28:278][439]LogSavePackage: Total save time: 31.723000ms
+[2016.11.11-12.32.28:278][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/MainMenu.uasset
+[2016.11.11-12.32.29:016][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.11-12.32.29:016][470]PIE: New page: PIE session: MainMenu (11 Nov 2016 12:32:29)
+[2016.11.11-12.32.29:016][470]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2016.11.11-12.32.29:017][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001020s)
+[2016.11.11-12.32.29:019][470]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-12.32.29:019][470]LogPlayLevel: PIE: World Init took: (0.001496s)
+[2016.11.11-12.32.29:019][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002973s)
+[2016.11.11-12.32.29:077][470]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-12.32.29:088][470]LogInit: FAudioDevice initialized.
+[2016.11.11-12.32.29:127][470]LogWorld: Game class is 'MainMenu_C'
+[2016.11.11-12.32.29:129][470]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.11.11-12.32.29
+[2016.11.11-12.32.29:129][470]LogActor:Warning: GameSession /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.32.29:129][470]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.32.29:129][470]LogWorld: Bringing up level for play took: 0.001623
+[2016.11.11-12.32.29:132][470]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainMenu 1.002
+[2016.11.11-12.32.32:525][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0E86C1DA0
+[2016.11.11-12.32.37:362][813]LogAIModule: Creating AISystem for world David-Level
+[2016.11.11-12.32.37:410][813]Cmd: MAP LOAD FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/David-Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.11-12.32.37:412][813]LightingResults: New page: Lighting Build
+[2016.11.11-12.32.37:428][813]LoadErrors: New page: Loading map: David-Level.umap
+[2016.11.11-12.32.37:428][813]MapCheck: New page: Map Check
+[2016.11.11-12.32.37:428][813]LightingResults: New page: Lighting Build
+[2016.11.11-12.32.37:463][813]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0E914EB60
+[2016.11.11-12.32.37:514][813]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.11-12.32.37:546][813]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.11-12.32.37:593][813]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.089ms to complete.
+[2016.11.11-12.32.37:594][813]LogFileHelpers: Loading map 'David-Level' took 0.184
+[2016.11.11-12.32.39:466][868]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.11-12.32.39:466][868]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.11-12.32.39:467][868]PIE: New page: PIE session: David-Level (11 Nov 2016 12:32:39)
+[2016.11.11-12.32.39:467][868]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_David-Level
+[2016.11.11-12.32.39:471][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004814s)
+[2016.11.11-12.32.39:472][868]LogAIModule: Creating AISystem for world David-Level
+[2016.11.11-12.32.39:473][868]LogPlayLevel: PIE: World Init took: (0.001208s)
+[2016.11.11-12.32.39:473][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/David-Level.David-Level to /Game/UEDPIE_0_David-Level.David-Level (0.006301s)
+[2016.11.11-12.32.39:530][868]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-12.32.39:539][868]LogInit: FAudioDevice initialized.
+[2016.11.11-12.32.39:574][868]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.11-12.32.39:576][868]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 60) at 2016.11.11-12.32.39
+[2016.11.11-12.32.39:576][868]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.32.39:576][868]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.32.39:576][868]LogWorld: Bringing up level for play took: 0.002176
+[2016.11.11-12.32.39:578][868]PIE: Info Play in editor start time for /Game/UEDPIE_0_David-Level -0.552
+[2016.11.11-12.32.39:578][868]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.11-12.32.39:583][868]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.11-12.32.39:583][868]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.11-12.32.39:583][868]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.11-12.32.39:583][868]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.11-12.32.39:599][869]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.11-12.32.39:599][869]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.11-12.32.39:600][869]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.11-12.32.39:614][870]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.11-12.32.39:614][870]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.11-12.32.39:632][871]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.11-12.32.39:655][872]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.11-12.32.41:209][940]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.11-12.32.41:259][940]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/David-Level.David-Level:PersistentLevel' has LevelScriptBlueprint '/Game/David-Level.David-Level:PersistentLevel.David-Level' with GeneratedClass '/Game/David-Level.David-Level_C' with ClassGeneratedBy '/Game/David-Level.David-Level:PersistentLevel.David-Level'
+[2016.11.11-12.32.41:332][940]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0E8859940
+[2016.11.11-12.32.45:609][ 71]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-12.32.45:659][ 71]Cmd: MAP LOAD FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.11-12.32.45:659][ 71]LightingResults: New page: Lighting Build
+[2016.11.11-12.32.45:676][ 71]LoadErrors: New page: Loading map: MainMenu.umap
+[2016.11.11-12.32.45:677][ 71]MapCheck: New page: Map Check
+[2016.11.11-12.32.45:677][ 71]LightingResults: New page: Lighting Build
+[2016.11.11-12.32.45:725][ 71]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0EDDD93A0
+[2016.11.11-12.32.45:767][ 71]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.11-12.32.45:802][ 71]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.11-12.32.45:855][ 71]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.357ms to complete.
+[2016.11.11-12.32.45:855][ 71]LogFileHelpers: Loading map 'MainMenu' took 0.198
+[2016.11.11-12.34.44:026][862]BlueprintLog: New page: Compile MainMenuController
+[2016.11.11-12.34.44:160][862]BlueprintEditorCompileResults: Info [0952.73] Compile of MainMenuController successful! [in 134 ms]
+[2016.11.11-12.34.44:907][879]LogSavePackage: Save=29.434620ms
+[2016.11.11-12.34.44:907][879]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/MainMenuController31D5E9EE43870AE4864ADBB37481CFA0.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/MainMenuController.uasset'
+[2016.11.11-12.34.44:911][879]LogSavePackage: Total save time: 51.961761ms
+[2016.11.11-12.34.44:911][879]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/MainMenuController.uasset
+[2016.11.11-12.35.44:965][616]BlueprintLog: New page: Compile HudMainMenu
+[2016.11.11-12.35.45:177][616]BlueprintEditorCompileResults: Info [1013.75] Compile of HudMainMenu successful! [in 212 ms]
+[2016.11.11-12.35.46:010][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HudMainMenu" FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/UI/HudMainMenu.uasset" SILENT=true
+[2016.11.11-12.35.46:045][640]LogSavePackage: Save=18.849737ms
+[2016.11.11-12.35.46:045][640]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/HudMainMenu2AB816B74AC2E13663F58CB892884F2A.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/UI/HudMainMenu.uasset'
+[2016.11.11-12.35.46:048][640]LogSavePackage: Total save time: 36.234330ms
+[2016.11.11-12.35.46:048][640]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/UI/HudMainMenu.uasset
+[2016.11.11-12.35.50:469][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.11-12.35.50:469][811]PIE: New page: PIE session: MainMenu (11 Nov 2016 12:35:50)
+[2016.11.11-12.35.50:469][811]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2016.11.11-12.35.50:470][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000709s)
+[2016.11.11-12.35.50:471][811]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-12.35.50:471][811]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2016.11.11-12.35.50:471][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002243s)
+[2016.11.11-12.35.50:519][811]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-12.35.50:528][811]LogInit: FAudioDevice initialized.
+[2016.11.11-12.35.50:565][811]LogWorld: Game class is 'MainMenu_C'
+[2016.11.11-12.35.50:566][811]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.11.11-12.35.50
+[2016.11.11-12.35.50:566][811]LogActor:Warning: GameSession /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.35.50:566][811]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.35.50:567][811]LogWorld: Bringing up level for play took: 0.001366
+[2016.11.11-12.35.50:569][811]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainMenu 0.439
+[2016.11.11-12.35.51:700][866]LogPackageName: SearchForPackageOnDisk took   0.086s to resolve David-Level.umap.
+[2016.11.11-12.35.51:771][866]LogPackageName: SearchForPackageOnDisk took   0.071s to resolve David-Level.umap.
+[2016.11.11-12.35.51:771][866]LogNet: Browse: /Game/David-Level
+[2016.11.11-12.35.51:772][866]LogLoad: LoadMap: /Game/David-Level
+[2016.11.11-12.35.51:811][866]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0DF396340
+[2016.11.11-12.35.51:815][866]Cmd: MEM
+[2016.11.11-12.35.51:856][866]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-12.35.51:856][866]LogMemory: Process Physical Memory: 1448.14 MB used, 1465.94 MB peak
+[2016.11.11-12.35.51:856][866]LogMemory: Process Virtual Memory: 1798.59 MB used, 1837.10 MB peak
+[2016.11.11-12.35.51:856][866]LogMemory: Physical Memory: 5338.27 MB used, 16297.84 MB total
+[2016.11.11-12.35.51:856][866]LogMemory: Virtual Memory: 2654.86 MB used, 134217728.00 MB total
+[2016.11.11-12.35.51:856][866]LogMemory: 
+[2016.11.11-12.35.51:856][866]Allocator Stats for TBB: (not implemented)
+[2016.11.11-12.35.55:505][866]LogAIModule: Creating AISystem for world David-Level
+[2016.11.11-12.35.55:505][866]LogWorld: Game class is 'BuildGameMode_C'
+[2016.11.11-12.35.55:510][866]LogWorld: Bringing World /Game/UEDPIE_0_David-Level.David-Level up for play (max tick rate 60) at 2016.11.11-12.35.55
+[2016.11.11-12.35.55:511][866]LogActor:Warning: GameSession /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.35.55:511][866]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_David-Level.David-Level:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.35.55:511][866]LogWorld: Bringing up level for play took: 0.005124
+[2016.11.11-12.35.55:516][866]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/0]!
+[2016.11.11-12.35.55:516][866]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/0]!
+[2016.11.11-12.35.55:516][866]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/0]!
+[2016.11.11-12.35.55:516][866]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [1/0]!
+[2016.11.11-12.35.55:560][867]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/1]!
+[2016.11.11-12.35.55:560][867]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/1]!
+[2016.11.11-12.35.55:560][867]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [2/1]!
+[2016.11.11-12.35.55:580][868]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/2]!
+[2016.11.11-12.35.55:580][868]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [3/2]!
+[2016.11.11-12.35.55:596][869]LogScript:Warning: Attempted to get an item from array ActiveWords out of bounds [4/3]!
+[2016.11.11-12.36.03:718][243]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A097E3E980
+[2016.11.11-12.36.34:720][193]BlueprintLog: New page: Compile HudMainMenu
+[2016.11.11-12.36.34:863][193]BlueprintEditorCompileResults: Info [1063.43] Compile of HudMainMenu successful! [in 143 ms]
+[2016.11.11-12.36.37:006][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HudMainMenu" FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/UI/HudMainMenu.uasset" SILENT=true
+[2016.11.11-12.36.37:067][250]LogSavePackage: Save=36.190281ms
+[2016.11.11-12.36.37:067][250]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/HudMainMenu6AEB41CC491E87713BBDD09540F20C43.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/UI/HudMainMenu.uasset'
+[2016.11.11-12.36.37:071][250]LogSavePackage: Total save time: 61.929964ms
+[2016.11.11-12.36.37:071][250]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/UI/HudMainMenu.uasset
+[2016.11.11-12.36.55:373][767]LogActor:Warning: GameNetworkManager /Engine/Transient.World_11:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.11-12.42.26:134][970]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.11-12.42.26:184][970]LogBlueprint:Error: [compiler BuildGameMode] Error The current value of the ' Event ' pin is invalid: Unsupported type Delegate on pin Delegate
+[2016.11.11-12.42.26:367][970]LogBlueprint:Warning: [compiler BuildGameMode] Warning [1414.94] Compile of BuildGameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 232 ms]
+[2016.11.11-12.42.26:367][970]BlueprintEditorCompileResults:Error: Error The current value of the ' Event ' pin is invalid: Unsupported type Delegate on pin Delegate
+[2016.11.11-12.42.26:367][970]BlueprintEditorCompileResults:Warning: Warning [1414.94] Compile of BuildGameMode failed. 1 Fatal Issue(s) 0 Warning(s) [in 232 ms]
+[2016.11.11-12.42.33:668][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BuildGameMode" FILE="../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset" SILENT=true
+[2016.11.11-12.42.33:837][166]LogSavePackage: Save=135.221008ms
+[2016.11.11-12.42.33:837][166]LogSavePackage: Moving '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Saved/BuildGameMode2842E92C45B7769D4BE284A395CE5214.tmp' to '../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset'
+[2016.11.11-12.42.33:841][166]LogSavePackage: Total save time: 169.834092ms
+[2016.11.11-12.42.33:841][166]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/David/Desktop/ConstructionMadness/ConstructionMadness/Content/Blueprints/BuildGameMode.uasset
+[2016.11.11-12.42.34:585][187]BlueprintLog: New page: Compile BuildGameMode
+[2016.11.11-12.42.34:759][187]BlueprintEditorCompileResults: Info [1423.33] Compile of BuildGameMode successful! [in 173 ms]
+[2016.11.11-12.44.07:785][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.11.11-12.44.07:836][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.11.11-12.44.07:884][936]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.11-12.44.08:223][937]Cmd: QUIT_EDITOR
+[2016.11.11-12.44.09:418][937]LogExit: Preparing to exit.
+[2016.11.11-12.44.10:473][937]LogExit: Editor shut down
+[2016.11.11-12.44.10:474][937]LogExit: Transaction tracking system shut down
+[2016.11.11-12.44.10:475][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0CBD79300
+[2016.11.11-12.44.10:475][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0CA21A020
+[2016.11.11-12.44.10:530][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0CB7E5E40
+[2016.11.11-12.44.10:533][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0FA6484A0
+[2016.11.11-12.44.10:534][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0E90B94E0
+[2016.11.11-12.44.10:534][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0E8FE4A40
+[2016.11.11-12.44.10:535][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0E90BB7E0
+[2016.11.11-12.44.11:831][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A0DF394A40
+[2016.11.11-12.44.11:831][937]LogExit: Object subsystem successfully closed.
+[2016.11.11-12.44.12:226][937]LogD3D11RHI: Shutdown
+[2016.11.11-12.44.12:226][937]LogD3D11RHI: CleanupD3DDevice
+[2016.11.11-12.44.12:715][937]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.11-12.44.13:724][937]LogModuleManager: Shutting down and abandoning module SequencerWidgets (201)
+[2016.11.11-12.44.13:724][937]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.11.11-12.44.13:724][937]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.11.11-12.44.13:724][937]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.11.11-12.44.13:724][937]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.11.11-12.44.13:724][937]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.11.11-12.44.13:724][937]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.11.11-12.44.13:724][937]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.11.11-12.44.13:739][937]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.11.11-12.44.13:741][937]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.11.11-12.44.13:768][937]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.11.11-12.44.13:789][937]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.11.11-12.44.13:800][937]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.11.11-12.44.13:827][937]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.11.11-12.44.13:827][937]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.11.11-12.44.13:827][937]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.11.11-12.44.13:827][937]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.11.11-12.44.13:827][937]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.11.11-12.44.13:827][937]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.11.11-12.44.13:827][937]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.11.11-12.44.13:827][937]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.11.11-12.44.13:827][937]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.11.11-12.44.13:827][937]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.11.11-12.44.13:861][937]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.11.11-12.44.13:871][937]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.11.11-12.44.13:894][937]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.11.11-12.44.13:894][937]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.11.11-12.44.13:900][937]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.11.11-12.44.13:900][937]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.11.11-12.44.14:282][937]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.11.11-12.44.14:282][937]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.11.11-12.44.14:282][937]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.11.11-12.44.14:282][937]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.11.11-12.44.14:409][937]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.11.11-12.44.14:409][937]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.11.11-12.44.14:471][937]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.11.11-12.44.14:477][937]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.11.11-12.44.14:495][937]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.11.11-12.44.14:500][937]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.11.11-12.44.14:505][937]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.11.11-12.44.14:527][937]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.11.11-12.44.14:538][937]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.11.11-12.44.14:562][937]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.11.11-12.44.14:562][937]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.11.11-12.44.14:574][937]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.11.11-12.44.14:574][937]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.11.11-12.44.14:585][937]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.11.11-12.44.14:585][937]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.11.11-12.44.14:608][937]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.11.11-12.44.14:608][937]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.11.11-12.44.14:622][937]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.11.11-12.44.14:635][937]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.11.11-12.44.14:651][937]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.11.11-12.44.14:659][937]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.11.11-12.44.14:659][937]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.11.11-12.44.14:668][937]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.11.11-12.44.14:682][937]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.11.11-12.44.14:702][937]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.11.11-12.44.14:754][937]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.11.11-12.44.14:754][937]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.11.11-12.44.14:754][937]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.11.11-12.44.14:755][937]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.11.11-12.44.14:802][937]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.11.11-12.44.14:830][937]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.11.11-12.44.14:830][937]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.11.11-12.44.14:832][937]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.11.11-12.44.14:832][937]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.11.11-12.44.14:843][937]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.11.11-12.44.14:855][937]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.11.11-12.44.14:855][937]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.11.11-12.44.14:861][937]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.11.11-12.44.14:861][937]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.11.11-12.44.14:868][937]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.11.11-12.44.14:868][937]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.11.11-12.44.14:868][937]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.11.11-12.44.14:868][937]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.11.11-12.44.14:882][937]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.11.11-12.44.14:887][937]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.11.11-12.44.14:887][937]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.11.11-12.44.15:071][937]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.11.11-12.44.15:101][937]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.11.11-12.44.15:101][937]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.11.11-12.44.15:101][937]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.11.11-12.44.15:101][937]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.11.11-12.44.15:101][937]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.11.11-12.44.15:101][937]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.11.11-12.44.15:101][937]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.11.11-12.44.15:208][937]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.11.11-12.44.15:208][937]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.11.11-12.44.15:212][937]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.11.11-12.44.15:212][937]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.11.11-12.44.15:282][937]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.11.11-12.44.15:333][937]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.11.11-12.44.15:333][937]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.11.11-12.44.15:333][937]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.11.11-12.44.15:373][937]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.11.11-12.44.15:400][937]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.11.11-12.44.15:401][937]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.11.11-12.44.15:410][937]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.11.11-12.44.15:410][937]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.11.11-12.44.15:432][937]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.11.11-12.44.15:577][937]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.11.11-12.44.15:621][937]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.11.11-12.44.15:637][937]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.11.11-12.44.15:637][937]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.11.11-12.44.15:664][937]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.11.11-12.44.15:664][937]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.11.11-12.44.15:664][937]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.11.11-12.44.15:710][937]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.11.11-12.44.15:718][937]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.11.11-12.44.15:718][937]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.11.11-12.44.15:723][937]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.11.11-12.44.15:724][937]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.11.11-12.44.15:831][937]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.11.11-12.44.15:832][937]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.11.11-12.44.15:877][937]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.11.11-12.44.15:978][937]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.11.11-12.44.15:978][937]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.11.11-12.44.15:999][937]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.11.11-12.44.16:008][937]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.11.11-12.44.16:008][937]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.11.11-12.44.16:020][937]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.11.11-12.44.16:020][937]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.11.11-12.44.16:020][937]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.11.11-12.44.16:023][937]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.11.11-12.44.16:054][937]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.11.11-12.44.16:054][937]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.11.11-12.44.16:070][937]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.11.11-12.44.16:070][937]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.11.11-12.44.16:070][937]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.11.11-12.44.16:070][937]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.11.11-12.44.16:103][937]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.11.11-12.44.16:103][937]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.11.11-12.44.16:103][937]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.11.11-12.44.16:103][937]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.11.11-12.44.16:107][937]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.11.11-12.44.16:107][937]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.11.11-12.44.16:107][937]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.11.11-12.44.16:107][937]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.11.11-12.44.16:107][937]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.11.11-12.44.16:107][937]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.11.11-12.44.16:107][937]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.11.11-12.44.16:107][937]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.11.11-12.44.16:113][937]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.11.11-12.44.16:141][937]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.11.11-12.44.16:178][937]LogDerivedDataCache: Shutdown
+[2016.11.11-12.44.16:178][937]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.11.11-12.44.16:193][937]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.11.11-12.44.16:198][937]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.11.11-12.44.16:203][937]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.11.11-12.44.16:203][937]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.11.11-12.44.16:204][937]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.11.11-12.44.16:204][937]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.11.11-12.44.16:205][937]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.11.11-12.44.16:205][937]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.11.11-12.44.16:205][937]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.11.11-12.44.16:205][937]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.11.11-12.44.16:208][937]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.11.11-12.44.16:209][937]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.11.11-12.44.16:210][937]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.11.11-12.44.16:211][937]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.11.11-12.44.16:211][937]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.11.11-12.44.16:213][937]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.11.11-12.44.16:213][937]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.11.11-12.44.16:213][937]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.11.11-12.44.16:213][937]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.11.11-12.44.16:213][937]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.11.11-12.44.16:213][937]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.11.11-12.44.17:215][937]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.11.11-12.44.17:312][937]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.11.11-12.44.17:340][937]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.11.11-12.44.17:340][937]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.11-12.44.17:342][937]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.11-12.44.17:342][937]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.11-12.44.17:342][937]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.11-12.44.17:394][937]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.11-12.44.17:474][937]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.11-12.44.17:474][937]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.11-12.44.17:474][937]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.11-12.44.17:474][937]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.11-12.44.17:474][937]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.11-12.44.17:474][937]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.11-12.44.17:484][937]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.11-12.44.17:485][937]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.11-12.44.17:485][937]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.11-12.44.17:499][937]LogExit: Exiting.
+[2016.11.11-12.44.17:550][937]Log file closed, 11/11/16 12:44:17
